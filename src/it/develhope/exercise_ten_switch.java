@@ -6,7 +6,7 @@ public class exercise_ten_switch {
         exercise1();
         exercise2();
         exercise3Bonus();
-        getPrime(17);
+//        getPrime(17);
     }
 
     /**
