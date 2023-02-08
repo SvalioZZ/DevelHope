@@ -6,6 +6,7 @@ public class exercise_ten_switch {
         exercise1();
         exercise2();
         exercise3Bonus();
+        getPrime(17);
     }
 
     /**
@@ -138,5 +139,15 @@ public class exercise_ten_switch {
         }
         
     }
-
 }
+    
+//    public static void getPrime (int input) {
+//            int i = 2;
+//            if (input % i == 0) {
+//                System.out.println("this is not a prime number");
+//            } else {
+//                System.out.println("This is a prime number: " + input);
+//            }
+//        }
+//    }
+
