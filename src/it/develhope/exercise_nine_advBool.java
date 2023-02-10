@@ -32,7 +32,7 @@ public class exercise_nine_advBool {
 
         // Write your code here
 
-        if (wearingShorts == true && isWarm == true){
+        if (!(wearingShorts ^ isWarm)){
             System.out.println("Confortable clothes");
         } else {
             System.out.println("Unconfortable clothes");
