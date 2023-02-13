@@ -13,8 +13,8 @@ public class exercise_two {
          */
         private static void exercise1() {
             System.out.println("Exercise 1:");
-            System.out.println("V");
-            System.out.println("C");
+            System.out.println('V');
+            System.out.println('C');
             
         }
 

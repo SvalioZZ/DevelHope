@@ -57,7 +57,7 @@ public class exercise_six_string {
          * the '+' operator in this case function as a concatenation of "values", that
          * returns a string with every element inside concatenated.
          */
-        String textFrom2Primitives = "a" + 5 + true + 9.0; // <--- Edit this line
+        String textFrom2Primitives = "" + 'a' + 5 + true + 9.0 ; // <--- Edit this line
         System.out.println(textFrom2Primitives);
     }
 

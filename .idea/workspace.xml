@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/Entities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/challenge_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/challenge_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_nine_advBool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/exercise_nine_advBool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_six_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/exercise_six_string.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/exercise_two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/Entities.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
