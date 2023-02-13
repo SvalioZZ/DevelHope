@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.ex_basics;
 
 public class exrecise_five_numbers {
 

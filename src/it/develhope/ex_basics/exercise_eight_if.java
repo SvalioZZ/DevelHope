@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.ex_basics;
 
 public class exercise_eight_if {
     public static void main(String[] args) {

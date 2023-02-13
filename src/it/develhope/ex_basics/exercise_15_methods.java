@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.ex_basics;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

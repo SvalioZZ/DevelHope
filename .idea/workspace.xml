@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/exercise_16_otherTypesJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_12_arrays_lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_12_arrays_lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_13_forLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_13_forLoops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_14_whileDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_14_whileDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_15_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_15_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_16_otherTypesJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_16_otherTypesJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_eight_if.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_eight_if.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_four_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_four_numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_nine_advBool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_nine_advBool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_one.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_one.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_recap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_recap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_recap_pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_recap_pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_seven_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_seven_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_six_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_six_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_ten_switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_ten_switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_three.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_three.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exercise_two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exercise_two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/exrecise_five_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_basics/exrecise_five_numbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +63,11 @@
 }]]></component>
   <component name="RunManager" selected="Application.exercise_16_otherTypesJava">
     <configuration name="exercise_12_arrays_lists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.exercise_12_arrays_lists" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_12_arrays_lists" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.ex_basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="exercise_13_forLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.exercise_13_forLoops" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_13_forLoops" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.ex_basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="exercise_14_whileDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.exercise_14_whileDo" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_14_whileDo" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.ex_basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="exercise_15_methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.exercise_15_methods" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_15_methods" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.ex_basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="exercise_16_otherTypesJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.exercise_16_otherTypesJava" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_16_otherTypesJava" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.ex_basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

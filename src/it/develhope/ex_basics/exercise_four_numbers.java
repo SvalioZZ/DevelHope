@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.ex_basics;
 
 public class exercise_four_numbers {
     // Don't forget to use comments to clear things up if you need them!
