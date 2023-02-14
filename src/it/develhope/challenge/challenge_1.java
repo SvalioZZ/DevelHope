@@ -1,4 +1,4 @@
-package it.develhope;
+package it.develhope.challenge;
 
 import java.util.*;
 
