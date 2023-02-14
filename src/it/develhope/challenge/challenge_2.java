@@ -1,6 +1,5 @@
 package it.develhope.challenge;
 
-import it.develhope.challenge_1;
 
 /**
  * Compare and update the inventory stored in a 2D array against a
