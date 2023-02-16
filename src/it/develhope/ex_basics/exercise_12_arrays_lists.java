@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class exercise_12_arrays_lists {
     public static void main(String[] args) {
@@ -24,18 +25,11 @@ public class exercise_12_arrays_lists {
     public static void exercise1() {
         System.out.println("Exercise 1:");
         ArrayList<Integer> numbers = new ArrayList<>();
-        
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(4);
-        numbers.add(5);
-        numbers.add(6);
-        numbers.add(7);
-        numbers.add(8);
-        numbers.add(9);
-        numbers.add(10);
-    
+        Random rd = new Random();
+        for (int i = 0; i < 8; i++) {
+            int next = rd.nextInt(8);
+            numbers.add(next);
+        }
         System.out.println("FIRST ITEM: " + numbers.get(0));
     
         /**

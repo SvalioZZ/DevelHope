@@ -22,7 +22,7 @@ public class exercise_14_whileDo {
         int yearsPast = 0;
         double interestGainedThisYearEuros = 0;
         
-        while (yearsPast <= 5) {
+        while (yearsPast <= 5 || currentInvestmentValueEuros == 15_000) {
             System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
                                        ", interest this year €" + interestGainedThisYearEuros);
             double previousYearsInvestment = currentInvestmentValueEuros;
