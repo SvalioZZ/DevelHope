@@ -2,10 +2,6 @@ package it.develhope.challenge.menu;
 
 import java.util.*;
 
-import static java.awt.SystemColor.menu;
-import static java.lang.Integer.parseInt;
-import static java.lang.Integer.valueOf;
-
 public class Main {
     
     public static void main(String[] args) throws InterruptedException {
