@@ -8,11 +8,13 @@ import static java.lang.Integer.valueOf;
 
 public class Main {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         
         Scanner scanner_input = new Scanner(System.in);
         
         ArrayList<String> order = new ArrayList<>();
+        
+        ArrayList<Double> prices = new ArrayList<>();
         
         ArrayList<MenuItem> menuBev = new ArrayList<>();
         menuBev.add(new MenuItem("Coca-Cola", 2.99));
@@ -38,8 +40,8 @@ public class Main {
         
         
         printMenu();
-        int input = parseInt(scanner_input.nextLine());
-        customerOrder(input, menuBev, menuFirst, menuSecond, order, scanner_input);
+        String input = scanner_input.nextLine();
+        customerOrder(input, menuBev, menuFirst, menuSecond, order, prices, scanner_input);
         
     }
     
@@ -63,54 +65,61 @@ public class Main {
     }
     
     static void customerOrder(
-            int input,
+            String input,
             ArrayList<MenuItem> menuBev,
             ArrayList<MenuItem> menuFirst,
             ArrayList<MenuItem> menuSecond,
             ArrayList<String> order,
+            ArrayList<Double> prices,
             Scanner scanner
-    ) {
-        while (input != 0) {
+    ) throws InterruptedException {
+        while (input != "0") {
             switch (String.valueOf(input)) {
                 case "1":
                     System.out.println("Beverages: \n" +
-                                               menuBev.get(0).toString() + "\n" +
-                                               menuBev.get(1).toString() + "\n" +
-                                               menuBev.get(2).toString() + "\n" +
-                                               menuBev.get(3).toString() + "\n" +
-                                               menuBev.get(4).toString() + "\n" +
-                                               menuBev.get(5).toString() + "\n"
+                                               menuBev.get(0).toString() + '€'  + "\n" +
+                                               menuBev.get(1).toString() + '€'  + "\n" +
+                                               menuBev.get(2).toString() + '€'  + "\n" +
+                                               menuBev.get(3).toString() + '€'  + "\n" +
+                                               menuBev.get(4).toString() + '€'  + "\n" +
+                                               menuBev.get(5).toString() + '€'  + "\n"
                     );
                     String bevInput = scanner.nextLine();
                     while (!Objects.equals(bevInput, "0")) {
                         switch (String.valueOf(bevInput)) {
                             case "1":
                                 order.add(menuBev.get(0).getName());
+                                prices.add(menuBev.get(0).getPrice());
                                 System.out.println("You ordered: " + order);
                                 bevInput = "0";
                                 break;
                             case "2":
                                 order.add(menuBev.get(1).getName());
+                                prices.add(menuBev.get(1).getPrice());
                                 System.out.println("You ordered: " + order);
                                 bevInput = "0";
                                 break;
                             case "3":
                                 order.add(menuBev.get(2).getName());
+                                prices.add(menuBev.get(2).getPrice());
                                 System.out.println("You ordered: " + order);
                                 bevInput = "0";
                                 break;
                             case "4":
                                 order.add(menuBev.get(3).getName());
+                                prices.add(menuBev.get(3).getPrice());
                                 System.out.println("You ordered: " + order);
                                 bevInput = "0";
                                 break;
                             case "5":
                                 order.add(menuBev.get(4).getName());
+                                prices.add(menuBev.get(4).getPrice());
                                 System.out.println("You ordered: " + order);
                                 bevInput = "0";
                                 break;
                             case "6":
                                 order.add(menuBev.get(5).getName());
+                                prices.add(menuBev.get(5).getPrice());
                                 System.out.println("You ordered: " + order);
                                 bevInput = "0";
                                 break;
@@ -118,7 +127,7 @@ public class Main {
                                 System.out.println("Exiting section -> Your order is: " + order);
                                 bevInput = "0";
                                 printMenu();
-                                input = scanner.nextInt();
+                                input = scanner.nextLine();
                                 break;
                             default:
                                 System.out.println("Invalid order");
@@ -129,37 +138,42 @@ public class Main {
                     break;
                 case "2":
                     System.out.println("First Courses: \n" +
-                                               menuFirst.get(0).toString() + "\n" +
-                                               menuFirst.get(1).toString() + "\n" +
-                                               menuFirst.get(2).toString() + "\n" +
-                                               menuFirst.get(3).toString() + "\n" +
-                                               menuFirst.get(4).toString() + "\n"
+                                               menuFirst.get(0).toString() + '€' + "\n" +
+                                               menuFirst.get(1).toString() + '€' + "\n" +
+                                               menuFirst.get(2).toString() + '€' + "\n" +
+                                               menuFirst.get(3).toString() + '€' + "\n" +
+                                               menuFirst.get(4).toString() + '€' + "\n"
                     );
                     String firstCourseInput = scanner.nextLine();
                     while (!Objects.equals(firstCourseInput, "0")) {
                         switch (String.valueOf(firstCourseInput)) {
                             case "1":
                                 order.add(menuFirst.get(0).getName());
+                                prices.add(menuFirst.get(0).getPrice());
                                 System.out.println("You ordered " + order);
                                 firstCourseInput = "0";
                                 break;
                             case "2":
                                 order.add(menuFirst.get(1).getName());
+                                prices.add(menuFirst.get(1).getPrice());
                                 System.out.println("You ordered " + order);
                                 firstCourseInput = "0";
                                 break;
                             case "3":
                                 order.add(menuFirst.get(2).getName());
+                                prices.add(menuFirst.get(2).getPrice());
                                 System.out.println("You ordered " + order);
                                 firstCourseInput = "0";
                                 break;
                             case "4":
                                 order.add(menuFirst.get(3).getName());
+                                prices.add(menuFirst.get(3).getPrice());
                                 System.out.println("You ordered " + order);
                                 firstCourseInput = "0";
                                 break;
                             case "5":
                                 order.add(menuFirst.get(4).getName());
+                                prices.add(menuFirst.get(4).getPrice());
                                 System.out.println("You ordered " + order);
                                 firstCourseInput = "0";
                                 break;
@@ -167,7 +181,7 @@ public class Main {
                                 System.out.println("Exiting section -> your order is: " + order);
                                 firstCourseInput = "0";
                                 printMenu();
-                                input = scanner.nextInt();
+                                input = scanner.nextLine();
                                 break;
                             default:
                                 System.out.println("Try with a different input");
@@ -178,37 +192,42 @@ public class Main {
                     break;
                 case "3":
                     System.out.println("Second Courses: \n" +
-                                               menuSecond.get(0).toString() + "\n" +
-                                               menuSecond.get(1).toString() + "\n" +
-                                               menuSecond.get(2).toString() + "\n" +
-                                               menuSecond.get(3).toString() + "\n" +
-                                               menuSecond.get(4).toString() + "\n"
+                                               menuSecond.get(0).toString() + '€' + "\n" +
+                                               menuSecond.get(1).toString() + '€' + "\n" +
+                                               menuSecond.get(2).toString() + '€'  + "\n" +
+                                               menuSecond.get(3).toString() + '€'  + "\n" +
+                                               menuSecond.get(4).toString() + '€'  + "\n"
                     );
                     String secondCourseInput = scanner.nextLine();
                     while (!Objects.equals(secondCourseInput, "0")) {
                         switch (String.valueOf(secondCourseInput)) {
                             case "1":
                                 order.add(menuSecond.get(0).getName());
+                                prices.add(menuSecond.get(0).getPrice());
                                 System.out.println("You ordered " + order);
                                 secondCourseInput = "0";
                                 break;
                             case "2":
                                 order.add(menuSecond.get(1).getName());
+                                prices.add(menuSecond.get(1).getPrice());
                                 System.out.println("You ordered " + order);
                                 secondCourseInput = "0";
                                 break;
                             case "3":
                                 order.add(menuSecond.get(2).getName());
+                                prices.add(menuSecond.get(2).getPrice());
                                 System.out.println("You ordered " + order);
                                 secondCourseInput = "0";
                                 break;
                             case "4":
                                 order.add(menuSecond.get(3).getName());
+                                prices.add(menuSecond.get(3).getPrice());
                                 System.out.println("You ordered " + order);
                                 secondCourseInput = "0";
                                 break;
                             case "5":
                                 order.add(menuSecond.get(4).getName());
+                                prices.add(menuSecond.get(4).getPrice());
                                 System.out.println("You ordered " + order);
                                 secondCourseInput = "0";
                                 break;
@@ -216,7 +235,7 @@ public class Main {
                                 System.out.println("Exiting section -> your order is: " + order);
                                 secondCourseInput = "0";
                                 printMenu();
-                                input = scanner.nextInt();
+                                input = scanner.nextLine();
                                 break;
                             default:
                                 System.out.println("Invalid order");
@@ -236,12 +255,29 @@ public class Main {
                     break;
                 case "end":
                     System.out.println("Thank you for choosing us! Have a nice day!");
+                    System.out.println("Your order is: " + order +
+                                               "\n --- Payment in process --- \n");
+                    Thread.sleep(1500);
+                    System.out.println(".");
+                    Thread.sleep(1500);
+                    System.out.println("..");
+                    Thread.sleep(1500);
+                    System.out.println("...");
+                    Thread.sleep(1500);
+                    
+                    double getOrderPrice = 0;
+                    for (Double price : prices) {
+                        getOrderPrice += price;
+                    }
+                    System.out.println("Your total is " + getOrderPrice + '€');
+                    input = "0";
                     break;
                 default:
                     System.out.println("The number you entered is not valid");
+                    input = scanner.nextLine();
                     break;
             }
         }
-        System.out.println("You have finished your order");
+        System.out.println("\n. \n.. \n... \n *** You have finished your order ***");
     }
 }

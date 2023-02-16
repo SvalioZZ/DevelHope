@@ -1,6 +1,6 @@
 package it.develhope.challenge.menu;
 
-public class MenuItem extends Main{
+public class MenuItem{
     
     String name;
     double price;

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/MenuItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/menu/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise_13_forLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_13_forLoops" />
+    <configuration name="MenuItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.challenge.menu.MenuItem" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.ex_basics.*" />
+          <option name="PATTERN" value="it.develhope.challenge.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise_15_methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_15_methods" />
+    <configuration name="exercise_13_forLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_13_forLoops" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
@@ -124,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MenuItem" />
         <item itemvalue="Application.exercise_13_forLoops" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.exercise_16_otherTypesJava" />
-        <item itemvalue="Application.exercise_15_methods" />
       </list>
     </recent_temporary>
   </component>
