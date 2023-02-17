@@ -10,14 +10,12 @@ public class Course {
     
     // my variables
     
-    int courseId;
-    String fieldOfCompetence;
+    int age;
+    String name;
     
-   ArrayList<Student> students = new ArrayList<Student>();
-   
-   String name;
-   
-   int age;
+    
+    ArrayList<Student> students = new ArrayList<Student>();
+    
     
     @Override
     public String toString() {
