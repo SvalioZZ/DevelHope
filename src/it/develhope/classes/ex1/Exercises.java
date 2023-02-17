@@ -46,7 +46,7 @@ public class Exercises {
         
         // Write your code here
         
-        student.name = name;
+        student.name = name; //this
         
         student.age = age;
         
@@ -71,17 +71,33 @@ public class Exercises {
     
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        
+    
         List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
+    
         
         // Use a for i loop
-        int sum = 0;
+        
+        double sum = 0;
         for (int i = 0; i < studentAges.size(); i++) {
-           sum += studentAges.get(i);
+            System.out.println(createCourseStudent(studentNames.get(i), studentAges.get(i)));
+            sum += studentAges.get(i);
         }
-        double averageAge = (double) sum / studentAges.size();
+        double averageAge = sum / studentAges.size();
         System.out.println(averageAge);
+        
+        
+    }
+    
+    public static Course createCourseStudent(String name, int age) {
+        
+        Course courseStudent = new Course();
+        
+        courseStudent.name = name;
+        courseStudent.age = age;
+        
+        return courseStudent;
+        
     }
     // Write your code here
     

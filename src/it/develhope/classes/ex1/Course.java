@@ -1,5 +1,6 @@
 package it.develhope.classes.ex1;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
@@ -12,7 +13,15 @@ public class Course {
     int courseId;
     String fieldOfCompetence;
     
-    List<Student> students;
+   ArrayList<Student> students = new ArrayList<Student>();
+   
+   String name;
+   
+   int age;
     
+    @Override
+    public String toString() {
+        return "*** NEW STUDENT CREATED ***\n" + name + " " + age;
+    }
 }
 
