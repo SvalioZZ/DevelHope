@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/classes/ex2/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/classes/ex2/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/classes/ex1/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/classes/ex1/Course.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exercises">
+  <component name="RunManager" selected="Application.Exercise">
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex2.Exercise" />
+      <module name="javaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.classes.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex1.Exercises" />
       <module name="javaBasics" />
@@ -93,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise_13_forLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_13_forLoops" />
-      <module name="javaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.ex_basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="exercise_14_whileDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.ex_basics.exercise_14_whileDo" />
       <module name="javaBasics" />
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.exercise_14_whileDo" />
         <item itemvalue="Application.exercise_12_arrays_lists" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.exercise_13_forLoops" />
       </list>
     </recent_temporary>
   </component>
