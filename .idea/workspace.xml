@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex4/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex4/ExerciseLunch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/classes/ex4/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/classes/ex4/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/classes/ex4/ExerciseLunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/classes/ex4/ExerciseLunch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.it.develhope.ex4.Exercise">
+  <component name="RunManager" selected="Application.it.develhope.classes.ex4.Exercise">
     <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex3.Encapsulation" />
       <module name="javaBasics" />
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="it.develhope.ex4.Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex4.Exercise" />
+    <configuration name="it.develhope.classes.ex4.Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex4.Exercise" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.ex4.*" />
+          <option name="PATTERN" value="it.develhope.classes.ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.it.develhope.ex4.Exercise" />
+        <item itemvalue="Application.it.develhope.classes.ex4.Exercise" />
         <item itemvalue="Application.Encapsulation" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.Exercises" />

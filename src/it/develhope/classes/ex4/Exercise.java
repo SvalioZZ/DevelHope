@@ -39,14 +39,19 @@ public class Exercise {
      * 2b: Now change these modifiers to the MINIMUM possible scope, to have no errors
      */
     
-    private static final int MINIMUM_WEIGHT_IN_GRAMS = 500;
-    
     
     public static void exercise2() {
         System.out.println("\nExercise 2:");
         ExerciseLunch exerciseLunch = new ExerciseLunch(3.4, "Tuesday");
-        exerciseLunch.setLunchWeightInGrams(MINIMUM_WEIGHT_IN_GRAMS);
+        exerciseLunch.setPrice(6.7);
+        exerciseLunch.setNameOfDayEaten("S00nday");
+        exerciseLunch.getPrice();
+        ExerciseLunch.printMaxPrice();
+        System.out.println(exerciseLunch.getNumberOfTimesWeHaveGotPrice());
+        exerciseLunch.setLunchWeightInGrams(300);
+        
         System.out.println("Lunch on " + exerciseLunch.getNameOfDayEaten() + " cost " + exerciseLunch.getPrice());
+        exerciseLunch.setNumberOfTimesWeHaveGotPrice(exerciseLunch.numberOfTimesWeHaveGotPrice);
     }
 
     /**
@@ -58,7 +63,7 @@ public class Exercise {
         System.out.println("\nExercise 3:");
         ExerciseLunch exerciseLunch = null;
         exerciseLunch = new ExerciseLunch(3.4, "Tuesday");
-        exerciseLunch.setLunchWeightInGrams(MINIMUM_WEIGHT_IN_GRAMS);
+        exerciseLunch.setLunchWeightInGrams(600);
         exerciseLunch.printLunch();
         exerciseLunch.setPrice(6.5);
         System.out.println(exerciseLunch.getNameOfDayEaten());

@@ -7,7 +7,11 @@ public class ExerciseLunch {
     
     private static final double MAX_PRICE = 5;
     
-    private int numberOfTimesWeHaveGotPrice = 0;
+    private static final int MIN_WEIGHT = 500;
+    
+    private static final String NOT_A_DAY = null;
+    
+    public int numberOfTimesWeHaveGotPrice = 0;
     
     ExerciseLunch(Double price, String nameOfDayEaten) {
         this.price = price;
@@ -39,7 +43,7 @@ public class ExerciseLunch {
         return this.price;
     }
     
-    private int getNumberOfTimesWeHaveGotPrice() {
+    public int getNumberOfTimesWeHaveGotPrice() {
         return this.numberOfTimesWeHaveGotPrice;
     }
     
@@ -47,23 +51,23 @@ public class ExerciseLunch {
         return nameOfDayEaten;
     }
     
-    private int getLunchWeightInGrams() {
-        return lunchWeightInGrams;
-    }
-    
-    private void setPrice(Double price) {
-        this.price = price;
-    }
-    
-    private void setNameOfDayEaten(String nameOfDayEaten) {
-        this.nameOfDayEaten = nameOfDayEaten;
+    public void setNameOfDayEaten(String nameOfDayEaten) {
+        if (nameOfDayEaten.equals(NOT_A_DAY) || nameOfDayEaten.contains("0123456789") ) {
+            System.out.println("Not a day! Retry ");
+        } else {
+            this.nameOfDayEaten = nameOfDayEaten;
+        }
     }
     
     void setLunchWeightInGrams(int lunchWeightInGrams) {
-        this.lunchWeightInGrams = lunchWeightInGrams;
+        if (lunchWeightInGrams < MIN_WEIGHT) {
+            System.out.println("Invalid weight value: " + lunchWeightInGrams + "\n Is less than " + MIN_WEIGHT);
+        } else {
+            this.lunchWeightInGrams = lunchWeightInGrams;
+        }
     }
     
-    private void setNumberOfTimesWeHaveGotPrice(int numberOfTimesWeHaveGotPrice) {
+    public void setNumberOfTimesWeHaveGotPrice(int numberOfTimesWeHaveGotPrice) {
         this.numberOfTimesWeHaveGotPrice = numberOfTimesWeHaveGotPrice;
     }
 }
