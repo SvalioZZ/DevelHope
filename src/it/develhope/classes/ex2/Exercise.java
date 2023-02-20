@@ -29,8 +29,10 @@ public class Exercise {
             Student student = null;
             for (int i = 0; i < studentAges.size(); i++) {
                 student = new Student(studentNames.get(i), studentAges.get(i));
-                System.out.println(student);
+                students.add(student);
+//                System.out.println(student);
             }
+            System.out.println(students);
         }
         
         /**
