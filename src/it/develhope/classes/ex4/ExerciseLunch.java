@@ -1,4 +1,4 @@
-package it.develhope.ex4;
+package it.develhope.classes.ex4;
 
 public class ExerciseLunch {
     private Double price = null;
