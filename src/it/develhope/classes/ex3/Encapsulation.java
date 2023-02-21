@@ -21,20 +21,23 @@ public class Encapsulation {
         Student student = new Student();
         // Write and use your 5 getters and setters!
         
-        student.setName("Valerio");
+        student.setName("V4l3r10");
+        student.setSurname("C0r4ll1n1");
         student.setAge(23);
-        student.setSurname("Corallini");
         student.setAddress("Via Napoli");
         student.setAddressId(11);
         
         System.out.println(
                 student.getName() + "\n" +
-                student.getAge() + "\n" +
-                student.getSurname() + "\n" +
-                student.getAddress() + "\n" +
-                student.getAddressId()
+                        student.getSurname() + "\n" +
+                        student.getAge() + "\n" +
+                        student.getAddress() + "\n" +
+                        student.getAddressId()
         
         );
+    
+        System.out.println("Total count for number occurencies of both name and surname: " +
+                                   (student.getNameCount() + student.getSurnameCount()));
     }
     
     /**
@@ -52,20 +55,21 @@ public class Encapsulation {
         //Write your code here
         Student student = new Student();
         student.setName("Viorica Gabriela");
-        student.setAge(24);
         student.setSurname("Hacman");
+        student.setAge(24);
         student.setAddress("Via Napoli");
         student.setAddressId(11);
-    
+        
         System.out.println(
                 student.getName() + "\n" +
-                        student.getAge() + "\n" +
                         student.getSurname() + "\n" +
+                        student.getAge() + "\n" +
                         student.getAddress() + "\n" +
                         student.getAddressId()
-    
-        );
         
+        );
+        System.out.println("Total count for number occurencies of both name and surname: " +
+                                   (student.getNameCount() + student.getSurnameCount()));
     }
     
 }

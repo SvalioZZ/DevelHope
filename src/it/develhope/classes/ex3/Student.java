@@ -1,24 +1,33 @@
 package it.develhope.classes.ex3;
 
 
-    public class Student {
+import java.util.Arrays;
+
+public class Student {
         private String name;
         private int age;
         private String surname;
         private String address;
         private int addressId;
+        
+        private int count = 0;
     
         public String getName() {
+            String[] chars = name.trim().split("");
+            String[] numbers = new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
+            System.out.println(Arrays.toString(chars));
+            for (String c : chars) {
+                for (String i : numbers) {
+                    if (c.equals(i)) {
+                        count++;
+                    }
+                }
+            }
+            System.out.println(count);
             return name;
         }
     
         public Student setName(String name) {
-            char [] chars = name.toCharArray();
-            for (char c : chars) {
-                if (Character.isDigit(c)){
-                    return this;
-                }
-            }
             this.name = name;
             return this;
         }
@@ -37,37 +46,39 @@ package it.develhope.classes.ex3;
         }
     
         public String getSurname() {
+            String[] chars = surname.trim().split("");
+            String[] numbers = new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
+            System.out.println(Arrays.toString(chars));
+            int count = 0;
+            for (String c : chars) {
+                for (String i : numbers) {
+                    if (c.equals(i)) {
+                        count++;
+                    }
+                }
+            }
+            System.out.println(count);
             return surname;
         }
     
-        public Student setSurname(String surname) {
-            char [] chars = name.toCharArray();
-            for (char c : chars) {
-                if (Character.isDigit(c)){
-                    return this;
-                }
-            }
-            this.name = name;
+        public void setSurname(String surname) {
             this.surname = surname;
-            return this;
         }
     
         public String getAddress() {
             return address;
         }
     
-        public Student setAddress(String address) {
+        public void setAddress(String address) {
             this.address = address;
-            return this;
         }
     
         public int getAddressId() {
             return addressId;
         }
     
-        public Student setAddressId(int addressId) {
+        public void setAddressId(int addressId) {
             this.addressId = addressId;
-            return this;
         }
     
         public Student(String name, int age) {
@@ -93,6 +104,12 @@ package it.develhope.classes.ex3;
             return "*** New Student ***\nName: " + name + "\nAge: " + age;
         }
         
+        public int getNameCount() {
+            return count;
+        }
+        public  int getSurnameCount() {
+            return count;
+        }
         
     }
 
