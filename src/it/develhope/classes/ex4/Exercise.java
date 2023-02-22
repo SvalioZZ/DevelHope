@@ -42,7 +42,7 @@ public class Exercise {
     
     public static void exercise2() {
         System.out.println("\nExercise 2:");
-        ExerciseLunch exerciseLunch = new ExerciseLunch(3.4, "Tuesday");
+        ExerciseLunch exerciseLunch = new ExerciseLunch(3.4, "");
         exerciseLunch.setPrice(6.7);
         exerciseLunch.setNameOfDayEaten("S00nday");
         exerciseLunch.getPrice();

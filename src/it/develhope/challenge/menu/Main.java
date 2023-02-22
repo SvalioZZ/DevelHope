@@ -69,7 +69,7 @@ public class Main {
             ArrayList<Double> prices,
             Scanner scanner
     ) throws InterruptedException {
-        while (input != "0") {
+        while (!Objects.equals(input, "0")) {
             switch (String.valueOf(input)) {
                 case "1":
                     System.out.println("Beverages: \n" +

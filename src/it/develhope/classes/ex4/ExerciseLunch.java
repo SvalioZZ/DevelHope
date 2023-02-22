@@ -7,7 +7,7 @@ public class ExerciseLunch {
     
     private static final double MAX_PRICE = 5;
     
-    private static final int MIN_WEIGHT = 500;
+    private static final int MIN_WEIGHT = 0;
     
     private static final String NOT_A_DAY = null;
     
@@ -52,10 +52,17 @@ public class ExerciseLunch {
     }
     
     public void setNameOfDayEaten(String nameOfDayEaten) {
-        if (nameOfDayEaten.equals(NOT_A_DAY) || nameOfDayEaten.contains("0123456789") ) {
+        char[] chars = nameOfDayEaten.toCharArray();
+        if (nameOfDayEaten.equals(NOT_A_DAY) || nameOfDayEaten.equals("")) {
             System.out.println("Not a day! Retry ");
-        } else {
-            this.nameOfDayEaten = nameOfDayEaten;
+            this.nameOfDayEaten = null;
+        }
+        
+        for (char aChar : chars) {
+            if (Character.isDigit(aChar)) {
+                System.out.println("Not a day! Retry");
+            }
+            nameOfDayEaten = null;
         }
     }
     
