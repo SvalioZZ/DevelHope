@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/CharacterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Fight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Skill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/classes/ex4/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/classes/ex4/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/classes/ex4/ExerciseLunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/classes/ex4/ExerciseLunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/CharacterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/CharacterType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Fight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Skill.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
