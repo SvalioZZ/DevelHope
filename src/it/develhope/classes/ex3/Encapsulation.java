@@ -36,7 +36,7 @@ public class Encapsulation {
         
         );
     
-        System.out.println("Total count for number occurencies of both name and surname: " +
+        System.out.println("Total count for number occurrences of both name and surname: " +
                                    (student.getNameCount() + student.getSurnameCount()));
     }
     

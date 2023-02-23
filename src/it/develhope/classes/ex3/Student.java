@@ -61,24 +61,27 @@ public class Student {
             return surname;
         }
     
-        public void setSurname(String surname) {
+        public Student setSurname(String surname) {
             this.surname = surname;
+            return this;
         }
     
         public String getAddress() {
             return address;
         }
     
-        public void setAddress(String address) {
+        public Student setAddress(String address) {
             this.address = address;
+            return this;
         }
     
         public int getAddressId() {
             return addressId;
         }
     
-        public void setAddressId(int addressId) {
+        public Student setAddressId(int addressId) {
             this.addressId = addressId;
+            return this;
         }
     
         public Student(String name, int age) {
