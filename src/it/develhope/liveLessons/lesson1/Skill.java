@@ -48,4 +48,5 @@ public class Skill {
         this.hitChance = hitChance;
         return this;
     }
+    
 }

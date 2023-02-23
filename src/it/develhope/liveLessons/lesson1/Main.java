@@ -64,7 +64,7 @@ public class Main {
         }
     }
     
-    static <input> void tournament(
+    static void tournament(
             int input,
             ArrayList<Character> players,
             Scanner scanner
@@ -76,13 +76,18 @@ public class Main {
                 System.out.println("Choose second character: \n");
                 Character player_2 = players.get(scanner.nextInt());
                 Fight.fight(player_1, player_2);
-            } catch (ArrayIndexOutOfBoundsException e) {
+                input = 0;
+                
+            } catch (IndexOutOfBoundsException e) {
                 System.out.println("!!! Index out of bounds !!!");
                 System.out.println("Your input was: " + input);
                 System.out.println("Enter a number from 0 to " + (players.size() - 1));
-                e.printStackTrace();
             }
-            
+        }
+        input = scanner.nextInt();
+    }
+}
+
 //            switch (input) {
 //                case 1:
 //                    System.out.println("You chose: " + players.get(0).getCharName());
@@ -139,8 +144,7 @@ public class Main {
 //                        break;
 //                }
 //            }
-            input = 0;
-        }
-    }
-}
+
+
+
     

@@ -19,8 +19,8 @@ public class Fight {
         if (player_1.getHp() <= 0) {
             System.out.println("The winner is " + player_2.getCharName() + "\n" + player_1.getCharName() + " is out of the BigTournament...!");
         } else if (player_1.getHp() <= 0 && player_2.getHp() <= 0) {
-            player_1.setHp(char1Hp_Initial);
-            player_2.setHp(char2Hp_Initial);
+//            player_1.setHp(char1Hp_Initial);
+//            player_2.setHp(char2Hp_Initial);
             System.out.println("Both players are out of the BigTournament...! It's a draw!");
         } else {
             System.out.println("The winner is " + player_1.getCharName() + "\n" + player_2.getCharName() + " is out of the BigTournament...!");

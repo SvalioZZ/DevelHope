@@ -21,8 +21,7 @@ public class Character {
     //Constructors
     
     
-    public Character(String charName, int hp, int strength, CharacterType type, ArrayList<Skill> skills)
-    {
+    public Character(String charName, int hp, int strength, CharacterType type, ArrayList<Skill> skills) {
         this.charName = charName;
         this.hp = hp;
         this.strength = strength;
@@ -105,7 +104,7 @@ public class Character {
     
     // Methods
     
-    public void attack(Character target){
+    public void attack(Character target) {
         
         Random random = new Random();
         
@@ -119,12 +118,21 @@ public class Character {
         double probability = chosenSkill.getHitChance() * target.getDodgeChance();
         double randomChoice = Math.random();
         
-        if (probability < randomChoice){
+        if (probability < randomChoice) {
             
             // Hit!
             int damage = (int) (chosenSkill.getDamage() * target.getArmor());
+           
             target.setHp(target.getHp() - damage);
-            System.out.println(this.charName + " hit " + target.getCharName() + " and deal " + damage + " damage!");
+            
+            if (chosenSkill.getName().equals("Explosion")) {
+                
+                System.out.println("Both players are out of tournament!");
+            } else {
+                System.out.println(this.charName + " hit " + target.getCharName() +
+                                           "\nwith " + chosenSkill.getName() +
+                                           " and deal " + damage + " damage!");
+            }
             
         } else {
             
