@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Fight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Skill.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +49,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vales/Desktop/exercise.js&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vales/Desktop/dragonball-fight-simulator&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.it.develhope.challenge.menu.Main">
     <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex3.Encapsulation" />
       <module name="javaBasics" />
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex1.Exercises" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.liveLessons.lesson1.Main" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.classes.ex1.*" />
+          <option name="PATTERN" value="it.develhope.liveLessons.lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.liveLessons.lesson1.Main" />
+    <configuration name="it.develhope.challenge.menu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.challenge.menu.Main" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.liveLessons.lesson1.*" />
+          <option name="PATTERN" value="it.develhope.challenge.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.it.develhope.challenge.menu.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Encapsulation" />
         <item itemvalue="Application.it.develhope.classes.ex4.Exercise" />
         <item itemvalue="Application.Exercise" />
-        <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +148,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -169,6 +180,12 @@
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Skill.java</url>
+          <line>10</line>
+          <properties field="hitChance" class="it.develhope.liveLessons.lesson1.Skill" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

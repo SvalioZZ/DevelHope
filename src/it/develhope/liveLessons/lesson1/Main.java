@@ -1,5 +1,6 @@
 package it.develhope.liveLessons.lesson1;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class Main {
@@ -36,10 +37,10 @@ public class Main {
         
         // Characters
         
-        Character goku = new Character("Goku", 100, 12, CharacterType.SAIYAN, skills_set1);
-        Character vegeta = new Character("Vegeta", 100, 10, CharacterType.SAIYAN, skills_set2);
+        Character goku = new Character("Goku", 100, 20, CharacterType.SAIYAN, skills_set1);
+        Character vegeta = new Character("Vegeta", 100, 20, CharacterType.SAIYAN, skills_set2);
         Character cell = new Character("Cell", 100, 20, CharacterType.CYBORG, skills_set3);
-        Character majin_bu = new Character("Majin Bu", 100, 15, CharacterType.DEMON, skills_set1);
+        Character majin_bu = new Character("Majin Bu", 100, 20, CharacterType.DEMON, skills_set1);
         
         // Characters list
         ArrayList<Character> characters = new ArrayList<>();
@@ -70,21 +71,29 @@ public class Main {
             Scanner scanner
     ) {
         while (input != 0) {
-            try {
-                System.out.println("Choose first character: \n");
-                Character player_1 = players.get(scanner.nextInt());
-                System.out.println("Choose second character: \n");
-                Character player_2 = players.get(scanner.nextInt());
-                Fight.fight(player_1, player_2);
-                input = 0;
-                
-            } catch (IndexOutOfBoundsException e) {
-                System.out.println("!!! Index out of bounds !!!");
-                System.out.println("Your input was: " + input);
-                System.out.println("Enter a number from 0 to " + (players.size() - 1));
+            switch (input) {
+                case 1:
+                    try {
+                        System.out.println("Choose first character: \n");
+                        Character player_1 = players.get(scanner.nextInt());
+                        System.out.println("Choose second character: \n");
+                        Character player_2 = players.get(scanner.nextInt());
+                        Fight.fight(player_1, player_2);
+                    } catch (IndexOutOfBoundsException e) {
+                        System.out.println("!!! Index out of bounds !!!");
+                        System.out.println("Your input was: " + input);
+                        System.out.println("Enter a number from 0 to " + (players.size() - 1));
+                    }
+                    input = scanner.nextInt();
+                    break;
+                case 0:
+                    input = scanner.nextInt();
+                    break;
+                default:
+                    System.out.println("Invalid input");
+                    break;
             }
         }
-        input = scanner.nextInt();
     }
 }
 

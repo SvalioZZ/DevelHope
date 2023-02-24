@@ -14,25 +14,25 @@ public class Main {
         
         ArrayList<MenuItem> menuBev = new ArrayList<>();
         menuBev.add(new MenuItem("Coca-Cola", 2.99));
-        menuBev.add(new MenuItem("Sprite", 2.99));
-        menuBev.add(new MenuItem("7-Up", 2.99));
-        menuBev.add(new MenuItem("Fanta", 2.99));
-        menuBev.add(new MenuItem("Sparkling Water", 1.50));
-        menuBev.add(new MenuItem("Still Water", 1.50));
+        menuBev.add(new MenuItem("\nSprite", 2.99));
+        menuBev.add(new MenuItem("\n7-Up", 2.99));
+        menuBev.add(new MenuItem("\nFanta", 2.99));
+        menuBev.add(new MenuItem("\nSparkling Water", 1.50));
+        menuBev.add(new MenuItem("\nStill Water", 1.50));
         
         ArrayList<MenuItem> menuFirst = new ArrayList<>();
         menuFirst.add(new MenuItem("Pasta Bucatini with Amatriciana sauce", 14.50));
-        menuFirst.add(new MenuItem("Pasta Rigatoni with Carbonara sauce", 14.50));
-        menuFirst.add(new MenuItem("Pasta Pappardella with Wild Boar Ragù sauce", 12.50));
-        menuFirst.add(new MenuItem("Pasta Spaghetti with Bolognese sauce", 12.50));
-        menuFirst.add(new MenuItem("Pasta Spaghetti with Shrimp and Porcini Mushrooms sauce", 18.00));
+        menuFirst.add(new MenuItem("\nPasta Rigatoni with Carbonara sauce", 14.50));
+        menuFirst.add(new MenuItem("\nPasta Pappardella with Wild Boar Ragù sauce", 12.50));
+        menuFirst.add(new MenuItem("\nPasta Spaghetti with Bolognese sauce", 12.50));
+        menuFirst.add(new MenuItem("\nPasta Spaghetti with Shrimp and Porcini Mushrooms sauce", 18.00));
         
         ArrayList<MenuItem> menuSecond = new ArrayList<>();
         menuSecond.add(new MenuItem("Scallops with white wine", 15.00));
-        menuSecond.add(new MenuItem("Fillet with porcini mushrooms", 24.99));
-        menuSecond.add(new MenuItem("Sliced Beef with Rucola & Grana", 18.99));
-        menuSecond.add(new MenuItem("Dolphin Thread", 29));
-        menuSecond.add(new MenuItem("Kobe's Thread (Not Bryant)", 129.99));
+        menuSecond.add(new MenuItem("\nFillet with porcini mushrooms", 24.99));
+        menuSecond.add(new MenuItem("\nSliced Beef with Rucola & Grana", 18.99));
+        menuSecond.add(new MenuItem("\nDolphin Thread", 29.0));
+        menuSecond.add(new MenuItem("\nKobe's Thread (Not Bryant)", 129.99));
         
         
         printMenu();
@@ -73,12 +73,12 @@ public class Main {
             switch (String.valueOf(input)) {
                 case "1":
                     System.out.println("Beverages: \n" +
-                                               menuBev.get(0).toString() + '€'  + "\n" +
-                                               menuBev.get(1).toString() + '€'  + "\n" +
-                                               menuBev.get(2).toString() + '€'  + "\n" +
-                                               menuBev.get(3).toString() + '€'  + "\n" +
-                                               menuBev.get(4).toString() + '€'  + "\n" +
-                                               menuBev.get(5).toString() + '€'  + "\n"
+                                               menuBev.get(0).toString() + '€'  +
+                                               menuBev.get(1).toString() + '€'  +
+                                               menuBev.get(2).toString() + '€'  +
+                                               menuBev.get(3).toString() + '€'  +
+                                               menuBev.get(4).toString() + '€'  +
+                                               menuBev.get(5).toString() + '€'
                     );
                     String bevInput = scanner.nextLine();
                     while (!Objects.equals(bevInput, "0")) {
@@ -134,11 +134,11 @@ public class Main {
                     break;
                 case "2":
                     System.out.println("First Courses: \n" +
-                                               menuFirst.get(0).toString() + '€' + "\n" +
-                                               menuFirst.get(1).toString() + '€' + "\n" +
-                                               menuFirst.get(2).toString() + '€' + "\n" +
-                                               menuFirst.get(3).toString() + '€' + "\n" +
-                                               menuFirst.get(4).toString() + '€' + "\n"
+                                               menuFirst.get(0).toString() + '€' +
+                                               menuFirst.get(1).toString() + '€' +
+                                               menuFirst.get(2).toString() + '€' +
+                                               menuFirst.get(3).toString() + '€' +
+                                               menuFirst.get(4).toString() + '€'
                     );
                     String firstCourseInput = scanner.nextLine();
                     while (!Objects.equals(firstCourseInput, "0")) {
@@ -188,11 +188,11 @@ public class Main {
                     break;
                 case "3":
                     System.out.println("Second Courses: \n" +
-                                               menuSecond.get(0).toString() + '€' + "\n" +
-                                               menuSecond.get(1).toString() + '€' + "\n" +
-                                               menuSecond.get(2).toString() + '€'  + "\n" +
-                                               menuSecond.get(3).toString() + '€'  + "\n" +
-                                               menuSecond.get(4).toString() + '€'  + "\n"
+                                               menuSecond.get(0).toString() + '€' +
+                                               menuSecond.get(1).toString() + '€' +
+                                               menuSecond.get(2).toString() + '€' +
+                                               menuSecond.get(3).toString() + '€' +
+                                               menuSecond.get(4).toString() + '€'
                     );
                     String secondCourseInput = scanner.nextLine();
                     while (!Objects.equals(secondCourseInput, "0")) {
@@ -241,13 +241,13 @@ public class Main {
                     }
                     break;
                 case "4":
-                    System.out.println("Third Courses: \n");
+                    System.out.println("Side Courses \n");
                     break;
                 case "5":
-                    System.out.println("Sides Courses: \n");
+                    System.out.println("Appetizers: \n");
                     break;
                 case "6":
-                    System.out.println("Appetizers: \n");
+                    System.out.println("Desserts: \n");
                     break;
                 case "end":
                     System.out.println("Thank you for choosing us! Have a nice day!");

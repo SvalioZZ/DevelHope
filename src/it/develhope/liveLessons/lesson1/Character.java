@@ -33,6 +33,7 @@ public class Character {
         //must add basic skill attack here
         
         Skill basicAttack = new Skill("Basic Attack", this.strength);
+        basicAttack.setHitChance(dodgeChance);
         skills.add(basicAttack);
         
     }
@@ -118,26 +119,21 @@ public class Character {
         double probability = chosenSkill.getHitChance() * target.getDodgeChance();
         double randomChoice = Math.random();
         
-        if (probability < randomChoice) {
-            
+        if (randomChoice <= probability) {
             // Hit!
             int damage = (int) (chosenSkill.getDamage() * target.getArmor());
-           
             target.setHp(target.getHp() - damage);
             
             if (chosenSkill.getName().equals("Explosion")) {
-                
+                System.out.println(this.charName + " hit " + target.getCharName() + "and himself with " + chosenSkill.getName() + " for " + damage + " damage!");
                 System.out.println("Both players are out of tournament!");
             } else {
                 System.out.println(this.charName + " hit " + target.getCharName() +
                                            "\nwith " + chosenSkill.getName() +
                                            " and deal " + damage + " damage!");
             }
-            
         } else {
-            
             System.out.println("Missed!");
         }
-        
     }
 }
