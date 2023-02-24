@@ -7,8 +7,7 @@
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/menu/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/menu/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="origin/main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -126,9 +130,9 @@
       <list>
         <item itemvalue="Application.it.develhope.challenge.menu.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Encapsulation" />
         <item itemvalue="Application.it.develhope.classes.ex4.Exercise" />
         <item itemvalue="Application.Exercise" />
+        <item itemvalue="Application.Encapsulation" />
       </list>
     </recent_temporary>
   </component>

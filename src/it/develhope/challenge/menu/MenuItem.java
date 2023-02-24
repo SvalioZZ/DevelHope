@@ -1,5 +1,8 @@
 package it.develhope.challenge.menu;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 public class MenuItem{
     
     String name;
@@ -20,6 +23,13 @@ public class MenuItem{
     
     public double getPrice() {
         return price;
+    }
+    public static double round(double value, int places) {
+        if (places < 0) throw new IllegalArgumentException();
+        
+        BigDecimal bd = BigDecimal.valueOf(value);
+        bd = bd.setScale(places, RoundingMode.HALF_UP);
+        return bd.doubleValue();
     }
     
     //
@@ -48,5 +58,8 @@ public class MenuItem{
 //    MenuItem second_4 = new MenuItem("Dolphin Thread", 29);
 //    MenuItem second_5 = new MenuItem("Kobe's Thread (Not Bryant)", 129.99);
 //
-    
+
+
+
+
 }
