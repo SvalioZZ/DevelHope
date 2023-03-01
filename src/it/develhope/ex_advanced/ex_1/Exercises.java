@@ -27,7 +27,7 @@ public class Exercises {
         
         ourSet = new HashSet<>(Arrays.asList(1, 1, 5, 2, 1));
         
-        if (ourSet.containsAll(List.of(1, 1, 5, 2, 1))) {
+        if (ourSet.containsAll(Set.of(1, 5, 2))) {
             System.out.println("1a. Set contains all numbers");
         } else {
             System.out.println("1a. Set does not contain all numbers");
