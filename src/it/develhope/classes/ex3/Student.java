@@ -27,22 +27,20 @@ public class Student {
             return name;
         }
     
-        public Student setName(String name) {
+        public void setName(String name) {
             this.name = name;
-            return this;
         }
     
         public int getAge() {
             return age;
         }
     
-        public Student setAge(int age) {
+        public void setAge(int age) {
             if (age > 0) {
                 this.age = age;
             } else {
                 System.out.println("Invalid");
             }
-            return this;
         }
     
         public String getSurname() {
@@ -61,27 +59,24 @@ public class Student {
             return surname;
         }
     
-        public Student setSurname(String surname) {
+        public void setSurname(String surname) {
             this.surname = surname;
-            return this;
         }
     
         public String getAddress() {
             return address;
         }
     
-        public Student setAddress(String address) {
+        public void setAddress(String address) {
             this.address = address;
-            return this;
         }
     
         public int getAddressId() {
             return addressId;
         }
     
-        public Student setAddressId(int addressId) {
+        public void setAddressId(int addressId) {
             this.addressId = addressId;
-            return this;
         }
     
         public Student(String name, int age) {
