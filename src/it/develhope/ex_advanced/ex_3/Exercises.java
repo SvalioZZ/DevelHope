@@ -46,8 +46,8 @@ public class Exercises {
     }
     
     // Write your method for exercise 2 here
-    public static <T> Set<T> toSet(Collection<T> collection) {
-        return new LinkedHashSet<>(collection);
+    public static Set<String> toSet(Collection collection) {
+        return new TreeSet<>(collection);
     }
     
     /**
@@ -91,7 +91,7 @@ public class Exercises {
      *    Answer: A Collection.sort() and sorting by time a Set or a Map
      *
      *    6 - You want to store the cities in a particular state, along with their populations.
-     *    Answer: a Met
+     *    Answer: a Map
      *
      *    7 - You want to store the books in a library, along with their authors and publication dates.
      *    Answer: a Map
