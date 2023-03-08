@@ -1,4 +1,4 @@
-package it.checkpoint;
+package it.checkpoint.ck_1;
 
 public class Car extends Father{
     

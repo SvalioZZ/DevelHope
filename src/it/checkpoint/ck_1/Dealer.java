@@ -1,4 +1,4 @@
-package it.checkpoint;
+package it.checkpoint.ck_1;
 
 import java.util.ArrayList;
 import java.util.List;
