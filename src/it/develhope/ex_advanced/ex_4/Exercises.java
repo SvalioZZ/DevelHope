@@ -124,9 +124,9 @@ public class Exercises {
             if (!Files.exists(myDirectoryPath)) {
                 Files.createDirectory(myDirectoryPath);
             }
-            Path myFilePath = myDirectoryPath.resolve("file.txt");
-            Files.writeString(myFilePath, "Why am I in a folder?");
-            System.out.println(Files.readString(myFilePath));
+//            Path myFilePath = myDirectoryPath.resolve("file.txt");
+            Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");
+            System.out.println(Files.readString(PATH_IN_A_FOLDER));
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
