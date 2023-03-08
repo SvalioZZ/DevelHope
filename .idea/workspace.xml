@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mydirectory/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_4/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LPj5dhYklGogyQQYzJjROZiYko" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,26 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.it.develhope.ex_advanced.ex_3.Exercises">
+  <component name="RunManager" selected="Application.it.develhope.ex_advanced.ex_4.Exercises">
     <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex3.Encapsulation" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it.develhope.classes.ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.classes.ex1.Exercises" />
-      <module name="javaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.classes.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="it.develhope.ex_advanced.ex_4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_4.Exercises" />
+      <module name="javaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.ex_advanced.ex_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.it.develhope.ex_advanced.ex_4.Exercises" />
         <item itemvalue="Application.it.develhope.ex_advanced.ex_3.Exercises" />
         <item itemvalue="Application.it.develhope.ex_advanced.ex_2.Exercises" />
         <item itemvalue="Application.Encapsulation" />
         <item itemvalue="Application.it.develhope.ex_advanced.ex_1.Exercises" />
-        <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
   </component>
