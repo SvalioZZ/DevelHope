@@ -27,7 +27,7 @@ public class Student {
         this.name = name;
         this.surname = surname;
         this.address = address;
-        List<Course> courses = new ArrayList<>();
+//        List<Course> courses = new ArrayList<>();
     }
     
     public Student() {

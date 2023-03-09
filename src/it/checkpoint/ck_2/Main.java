@@ -79,6 +79,11 @@ public class Main {
         for (Student s : searchedStudents) {
             System.out.println(s);
         }
-        
+    
+    
+        System.out.println("----------------------------------\n" +
+                                   "All students from all courses: \n" +
+                                   students
+        );
     }
 }

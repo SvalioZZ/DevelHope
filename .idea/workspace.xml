@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,13 +63,13 @@
     "settings.editor.selected.configurable": "com.code_inspector.settings.AppSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_5.Exercises" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.checkpoint.ck_2.Main" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.ex_advanced.ex_5.*" />
+          <option name="PATTERN" value="it.checkpoint.ck_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.exercise1" />
         <item itemvalue="JUnit.CalculatorTest.exercise2" />
         <item itemvalue="Application.it.develhope.ex_advanced.ex_6.Exercises" />
-        <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
   </component>
