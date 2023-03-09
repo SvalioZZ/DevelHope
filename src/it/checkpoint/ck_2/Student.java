@@ -16,7 +16,6 @@ public class Student {
     private String name;
     private String surname;
     private String address;
-    private List<Course> courses;
     
     /**
      * Implement at least two types of constructors and their getters and setters for
@@ -28,7 +27,7 @@ public class Student {
         this.name = name;
         this.surname = surname;
         this.address = address;
-        this.courses = new ArrayList<>();
+        List<Course> courses = new ArrayList<>();
     }
     
     public Student() {

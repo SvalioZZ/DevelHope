@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_7/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_7/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBasics.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,11 +206,6 @@
           <line>10</line>
           <properties field="hitChance" class="it.develhope.liveLessons.lesson1.Skill" />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_7/CalculatorTest.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
