@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_2/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/openAi/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/checkpoint/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/checkpoint/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_1/Dealer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/checkpoint/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_1/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/checkpoint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.code_inspector.settings.AppSettingsConfigurable&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.Main">
@@ -204,5 +198,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
