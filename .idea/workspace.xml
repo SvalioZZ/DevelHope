@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_6/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_7/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_7/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBasics.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,65 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vales/Desktop/dragonball-fight-simulator&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.code_inspector.settings.AppSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/vales/Desktop/dragonball-fight-simulator",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.code_inspector.settings.AppSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.it.develhope.ex_advanced.ex_6.Exercises">
+}]]></component>
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_5.Exercises" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it.develhope.ex_advanced.ex_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.checkpoint.ck_2.Main" />
-      <module name="javaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.checkpoint.ck_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="it.develhope.ex_advanced.ex_3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_3.Exercises" />
-      <module name="javaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.ex_advanced.ex_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="it.develhope.ex_advanced.ex_4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_4.Exercises" />
-      <module name="javaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.ex_advanced.ex_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +95,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.ex_advanced.ex_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.develhope.ex_advanced.ex_7" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_7.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.exercise1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.ex_advanced.ex_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.develhope.ex_advanced.ex_7" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_7.CalculatorTest" />
+      <option name="METHOD_NAME" value="exercise1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.exercise2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.ex_advanced.ex_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.develhope.ex_advanced.ex_7" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_7.CalculatorTest" />
+      <option name="METHOD_NAME" value="exercise2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.exercise1" />
+        <item itemvalue="JUnit.CalculatorTest.exercise2" />
         <item itemvalue="Application.it.develhope.ex_advanced.ex_6.Exercises" />
         <item itemvalue="Application.Exercises" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.it.develhope.ex_advanced.ex_4.Exercises" />
-        <item itemvalue="Application.it.develhope.ex_advanced.ex_3.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +209,11 @@
           <line>10</line>
           <properties field="hitChance" class="it.develhope.liveLessons.lesson1.Skill" />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_7/CalculatorTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
