@@ -34,6 +34,34 @@ public class Car extends Father{
         this.brand = brand;
     }
     
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+    public void setIdCounter(int idCounter) {
+        this.idCounter = idCounter;
+    }
+    
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setPlate(String plate) {
+        this.plate = plate;
+    }
+    
+    public void setKmL(int kmL) {
+        this.kmL = kmL;
+    }
+    
+    public void setElectric(boolean electric) {
+        isElectric = electric;
+    }
+    
     public int getId() {
         return id;
     }
@@ -76,6 +104,6 @@ public class Car extends Father{
     
     @Override
     void printing() {
-        System.out.println(brand + " - " + name + " - " + plate.toUpperCase() + " - " + price);
+        System.out.println(brand + " - " + name + " - " + plate.toUpperCase() + " - " + price + " - "  + idCounter);
     }
 }

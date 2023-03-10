@@ -45,6 +45,12 @@ public class Main {
         }
         System.out.println("--------------------------------\n" + "Sum of prices is: " + sum);
         
+        int id = 0;
+        for (Car car : allCars) {
+            car.setIdCounter(id++);
+            car.printing();
+        }
+        
     }
     
 }
