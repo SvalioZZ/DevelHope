@@ -1,0 +1,32 @@
+1) Design a Student class with the following private attributes:
+- Freshman Num.
+- First Name
+- Last Name
+- Grades // map <String, Integer>.
+- Number of students created // counter to keep track of how many instances
+are created
+● Implement at least two types of constructors and their getters and setters for
+each variable.
+● Implement a method to add a new evaluation
+to the map
+● Implement the toString() method to output some info about
+the class instance.
+2) Design a CourseLaurea class that allows to store:
+- Course Name
+- Students
+● Implement a constructor that receives only as input the name of the course
+degree.
+● Implement getters and setters for each variable.
+● Implement a method that prints the students enrolled in the degree program.
+● Implement a method to add a student to the students enrolled in the
+course.
+● Implement a method to remove a student from the undergraduate
+degree
+3) Create a Main class in which to:
+● Instantiate 3 objects of type Students.
+● Instantiate a DegreeCourse object and enroll the students created.
+● Print the students enrolled in the degree course object.
+● Create a new student and print the updated count of instances
+created
+● Remove one of the students from the course and print the list of students
+updated.
