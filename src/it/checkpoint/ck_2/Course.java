@@ -79,12 +79,12 @@ public class Course {
      * the corresponding number of total credits.
      */
     
-    public static void totalCredit(List<Course> courses){
+    public int totalCredit(List<Course> courses){
         int totalCredits = 0;
         for (Course course : courses) {
             totalCredits += course.getCredits();
         }
-        System.out.println("Total credits: " + totalCredits);
+        return totalCredits;
     }
     
     /**

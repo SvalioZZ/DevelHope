@@ -56,9 +56,9 @@ public class Main {
         courses.add(c1);
         courses.add(c2);
         courses.add(c3);
-        
-        Course.totalCredit(courses);
     
+        System.out.println(c1.totalCredit(courses));
+
 //        ----------------------------------------------------------------
         
         Student s4 = new Student(3, "Wilfred", "Wilson", "West Central St., 35");
