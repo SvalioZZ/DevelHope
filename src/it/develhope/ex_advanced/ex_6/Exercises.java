@@ -142,13 +142,13 @@ public class Exercises {
         for (Operator operator : Operator.values()) {
             
             if (operator == Operator.ADD) {
-                System.out.println(operator.name() + " operation: " + (num1 += num2));
+                System.out.println(operator.name() + " operation: " + (num1 + num2));
             } else if (operator == Operator.SUBTRACT) {
-                System.out.println(operator.name() + " operation: " +(num1 -= num2));
+                System.out.println(operator.name() + " operation: " +(num1 - num2));
             } else if (operator == Operator.MULTIPLY){
-                System.out.println(operator.name() + " operation: " +(num1 *= num2));
+                System.out.println(operator.name() + " operation: " +(num1 * num2));
             } else {
-                System.out.println(operator.name() + " operation: " +(num1 /= num2));
+                System.out.println(operator.name() + " operation: " +(num1 / num2));
             }
         }
        
