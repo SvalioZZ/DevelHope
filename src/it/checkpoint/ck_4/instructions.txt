@@ -1,0 +1,31 @@
+CHECKPOINT 10/03/2023
+1) Progettare una classe Auto con i seguenti attributi privati:
+- Marca
+- Modello
+- Prezzo
+● Implementare almeno due tipologie di costruttori e i relativi getter e setter per
+ciascuna variabile.
+● Implementare il metodo toString() per mostrare in output alcune info relative
+all’istanza della classe.
+2) Progettare una classe Concessionaria che permetta di memorizzare:
+- Nome della concessionaria
+- Lista di auto presenti nella concessionaria
+● Implementare un costruttore che riceva solamente in input il nome della
+concessionaria.
+● Implementare i getter e i setter per ciascuna variabile.
+● Realizzare un metodo che stampi le auto presenti nella concessionaria.
+● Realizzare un metodo per aggiungere un auto alla concessionaria.
+● Realizzare un metodo che permetta di rimuovere un auto dalla concessionaria
+● Realizzare un metodo che permetta di effettuare una ricerca delle auto
+presenti nella concessionaria in base alla marca.
+● Realizzare un metodo che non prende in input alcun parametro e restituisce
+una mappa che tiene traccia del conteggio delle auto presenti nella
+concessionaria in base alla marca.
+3) Creare una classe Main nella quale:
+● Istanziare 3 oggetti di tipo Auto di cui due della stessa marca.
+● Istanziare un oggetto concessionaria e aggiungere le auto create.
+● Stampare le auto presenti nella concessionaria.
+● Creare una nuova auto e aggiungerla alla concessionaria rimuovendo una
+delle auto presenti.
+● Effettuare una ricerca usando il metodo implementato
+● Mappare le informazioni relative al numero di auto presenti rispetto alla marca
