@@ -36,7 +36,7 @@ public class Exercises {
     }
     
     /**
-     *  2: Follow the instructions in the code
+     *  2: Follow the instructions.txt in the code
      */
     private static void exercise2() {
         System.out.println("Exercise 2: \n");
@@ -69,7 +69,7 @@ public class Exercises {
     }
     
     /**
-     * 3: Follow the instructions in the code
+     * 3: Follow the instructions.txt in the code
      */
     private static void exercise3() {
         Map<String, Integer> fruitWeights = new HashMap<>();

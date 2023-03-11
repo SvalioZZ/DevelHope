@@ -51,7 +51,7 @@ public class Exercises {
     }
     
     /**
-     * 3: Follow the instructions in the comments
+     * 3: Follow the instructions.txt in the comments
      */
     private static void exercise3() {
         System.out.println("Exercise 3:");
