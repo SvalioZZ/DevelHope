@@ -139,8 +139,12 @@ public class Exercises {
     
         System.out.println("Numbers of the equations: " + num1 + " - " + num2);
         
+        operations(num1, num2);
+       
+    }
+    
+    public static void operations(double num1, double num2){
         for (Operator operator : Operator.values()) {
-            
             if (operator == Operator.ADD) {
                 System.out.println(operator.name() + " operation: " + (num1 + num2));
             } else if (operator == Operator.SUBTRACT) {
@@ -151,7 +155,6 @@ public class Exercises {
                 System.out.println(operator.name() + " operation: " +(num1 / num2));
             }
         }
-       
     }
     
 }
