@@ -1,0 +1,125 @@
+Index: src/it/develhope/exercise_three.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/it/develhope/exercise_three.java b/src/it/develhope/exercise_three.java
+new file mode 100644
+--- /dev/null	(date 1678561156327)
++++ b/src/it/develhope/exercise_three.java	(date 1678561156327)
+@@ -0,0 +1,69 @@
++package it.develhope;
++
++public class exercise_three {
++
++        public static void main(String[] args) {
++            exercise1();
++            exercise2();
++            exercise3();
++        }
++
++        /**
++         * 1: Store your age in an appropriate variable, print it out in
++         *    one line using the "+" in your print statement. Only use 1 print statement
++         */
++        private static void exercise1() {
++            System.out.println("Exercise 1:");
++            int age = 24;
++            System.out.println("your age = " + age);
++        }
++
++        /**
++         * 2: Store your first name initial (i.e. Jane -> J) in a variable, your age in another variable.
++         *
++         *    And then print them out on the same line using the following idea
++         *
++         *    System.out.println("My Age=" + myAge +", my initial=" + myInitial);
++         */
++        private static void exercise2() {
++            System.out.println("\nExercise 2:");
++            int age = 24;
++            String myInitial = "V";
++            System.out.println("My Age=" + age +", my initial=" + myInitial);
++
++        }
++
++        /**
++         * 3: Write comments above each line of code, describing what the line of code is doing
++         */
++        private static void exercise3() {
++            /**
++             * in this fragment we have a print function that says in console
++             * "Exercise 3:", whit initial "\n" we intend to go one line under the actual
++             * print function.
++             */
++            System.out.println("\nExercise 3:");
++
++            /**
++             * this is a primitive type variable named boolean, with the function to
++             * return true or false, in a statement for example or an "if" condition.
++             */
++            boolean hasEatenLunch = false;
++
++            /**
++             * the double variable, another primitive type variable, represents every kind of number
++             * even decimal number with your preferred range input. i.g.: 4.567342452353423 ...
++             */
++            double lunchCost = 5.99;
++
++            /**
++             * another print function that recalls the previous initialized variable lunchCost.
++             */
++            System.out.println("Lunch cost=" + lunchCost);
++            /**
++             * last print function that recalls the other previous initialized variable hasEatenLunch
++             */
++            System.out.println("Has Eaten lunch=" + hasEatenLunch);
++        }
++    }
++
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"origin/main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/src/it/develhope/challenge/challenge_1.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/src/it/develhope/classes/ex1/Course.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/src/it/develhope/classes/ex1/Exercises.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/src/it/develhope/classes/ex1/Student.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LPj5dhYklGogyQQYzJjROZiYko\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/vales/Desktop/dragonball-fight-simulator&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.it.checkpoint.ck_4.Main\">\r\n    <configuration name=\"Exercises\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"it.develhope.ex_advanced.ex_6.Exercises\" />\r\n      <module name=\"javaBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"it.develhope.ex_advanced.ex_6.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"it.checkpoint.ck_2.Main\" />\r\n      <module name=\"javaBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"it.checkpoint.ck_2.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"it.checkpoint.ck_1.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"it.checkpoint.ck_1.Main\" />\r\n      <module name=\"javaBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"it.checkpoint.ck_1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"it.checkpoint.ck_3.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"it.checkpoint.ck_3.Main\" />\r\n      <module name=\"javaBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"it.checkpoint.ck_3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"it.checkpoint.ck_4.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"it.checkpoint.ck_4.Main\" />\r\n      <module name=\"javaBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"it.checkpoint.ck_4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.it.checkpoint.ck_4.Main\" />\r\n        <item itemvalue=\"Application.Exercises\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.it.checkpoint.ck_3.Main\" />\r\n        <item itemvalue=\"Application.it.checkpoint.ck_1.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8\" name=\"Changes\" comment=\"\" />\r\n      <created>1675779429805</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1675779429805</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.ClassCastException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.IndexOutOfBoundsException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </breakpoint>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.IllegalArgumentException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"4\" />\r\n        </breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-field\">\r\n          <url>file://$PROJECT_DIR$/src/it/develhope/liveLessons/lesson1/Skill.java</url>\r\n          <line>10</line>\r\n          <properties field=\"hitChance\" class=\"it.develhope.liveLessons.lesson1.Skill\" />\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f00f885516fd4de7144ce8801e0fc77f240d4ddf)
++++ b/.idea/workspace.xml	(date 1678561768924)
+@@ -4,7 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="" />
++    <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="third exercise">
++      <changelist_data name="valerio" email="corallini.valerio.1999@gmail.com" date="1675787013000" />
++      <change afterPath="$PROJECT_DIR$/src/it/develhope/exercise_three.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -21,7 +25,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="origin/main" />
++        <entry key="$PROJECT_DIR$" value="f00f885516fd4de7144ce8801e0fc77f240d4ddf" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -131,11 +135,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Main" />
+         <item itemvalue="Application.it.checkpoint.ck_4.Main" />
+-        <item itemvalue="Application.Exercises" />
+-        <item itemvalue="Application.Main" />
+         <item itemvalue="Application.it.checkpoint.ck_3.Main" />
+         <item itemvalue="Application.it.checkpoint.ck_1.Main" />
++        <item itemvalue="Application.Exercises" />
+       </list>
+     </recent_temporary>
+   </component>
