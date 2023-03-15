@@ -16,15 +16,23 @@ public class Exercises {
     
     /**
      * 1:
-     *
-     *
+     * <p>
+     * <p>
      * Create an enum called "Days" with the values "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY".
-     *
+     * <p>
      * Loop over the values with Days.values() and print them out.
      */
     private enum Days {
-        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
+        MONDAY(false), TUESDAY(false), WEDNESDAY(false), THURSDAY(false), FRIDAY(false), SATURDAY(true), SUNDAY(true);
+        
+        private final boolean isWeekend;
+        
+        Days(boolean isWeekend) {
+            this.isWeekend = isWeekend;
+        }
+        
     }
+    
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
@@ -36,64 +44,63 @@ public class Exercises {
     
     /**
      * 2:
-     *
-     *
+     * <p>
+     * <p>
      * Create an enum called "Seasons" with the values "SPRING", "SUMMER", "FALL", "WINTER".
-     *
+     * <p>
      * Write a method that takes a Seasons value as input and returns the corresponding date range of months in that season.
-     *
      */
     
     private enum Seasons {
-        SPRING, SUMMER, FALL, WINTER;
+        SPRING("March 1 - May 31"),
+        SUMMER("June 1 - August 31"),
+        FALL("September 1 - November 30"),
+        WINTER("December 1 - February 28");
+        private final String dateRange;
+        
+        Seasons(String dateRange) {
+            this.dateRange = dateRange;
+        }
     }
+    
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
         for (Seasons season : Seasons.values()) {
-            if (season == Seasons.SPRING) {
-                System.out.println("Period of " + season.name() + ": " + "March 1 - May 31");
-            } else if (season == Seasons.SUMMER) {
-                System.out.println("Period of " + season.name() + ": " + "June 1 - August 31");
-            } else if (season == Seasons.FALL) {
-                System.out.println("Period of " + season.name() + ": " + "September 1 - November 30");
-            } else {
-                System.out.println("Period of " + season.name() + ": " + "December 1 - February 28");
-            }
+            System.out.println(season.name() + " happens in " + season.dateRange);
         }
     }
     
     /**
      * 3:
-     *
-     *
+     * <p>
+     * <p>
      * Create an enum called "TrafficLight" with the values "RED", "YELLOW", "GREEN".
-     *
+     * <p>
      * Write code that simulates the behavior of a traffic light. It should take the current state of the traffic light as input and return the next state.
-     *
      */
     private enum TrafficLight {
-        GREEN, YELLOW, RED;
+        GREEN("You may Go!"), YELLOW("Hurry Up!"), RED("STOP!");
+        private final String state;
+        
+        TrafficLight(String state) {
+            this.state = state;
+        }
     }
+    
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
         for (TrafficLight light : TrafficLight.values()) {
-            if (light == TrafficLight.GREEN) {
-                System.out.println(light.name() + " is on \n" + "You may go!\nNext state: " + TrafficLight.YELLOW);
-            } else if (light == TrafficLight.YELLOW) {
-                System.out.println(light.name() + " is on \n" + "Hurry Up!\nNext state: " + TrafficLight.RED);
-            } else {
-                System.out.println((light.name() + " is on \n" + "STOP!\nnext state: " + TrafficLight.GREEN));
-            }
+            System.out.println(light.name() + " is currently on: " + light.state);
         }
     }
     
     /**
      * 4:
-     *
+     * <p>
      * Given the Days enum from exercise 1, add a local field called isWeekend and set it to true for the weekend days and false for the weekdays.
-     *
+     * <p>
      * Write an if statement that prints weekend or weekday based on the enum
      */
     private static void exercise4() {
@@ -101,20 +108,10 @@ public class Exercises {
         // Your code here
         boolean isWeekend = true;
         for (Days day : Days.values()) {
-            if (day == Days.MONDAY) {
-                System.out.println(day.name() + " is weekend? " + !isWeekend);
-            } else if (day == Days.TUESDAY) {
-                System.out.println(day.name() + " is weekend? " + !isWeekend);
-            } else if (day == Days.WEDNESDAY) {
-                System.out.println(day.name() + " is weekend? " + !isWeekend);
-            } else if (day == Days.THURSDAY) {
-                System.out.println(day.name() + " is weekend? " + !isWeekend);
-            } else if (day == Days.FRIDAY) {
-                System.out.println(day.name() + " is weekend? " + !isWeekend);
-            } else if (day == Days.SATURDAY) {
-                System.out.println(day.name() + " is weekend? " + isWeekend);
+            if (!day.isWeekend) {
+                System.out.println(day.name() + " is not a weekend day");
             } else {
-                System.out.println(day.name() + " is weekend? " + isWeekend);
+                System.out.println(day.name() + " is a weekend day");
             }
         }
         
@@ -122,38 +119,62 @@ public class Exercises {
     
     /**
      * 5:
-     *
-     *
+     * <p>
+     * <p>
      * Create an enum called "Operator" with the values "ADD", "SUBTRACT", "MULTIPLY", "DIVIDE".
-     *
+     * <p>
      * Write a method that takes two integers and an Operator value as input, performs the corresponding operation on the integers, and returns the result.
      */
     private enum Operator {
-        ADD, SUBTRACT, MULTIPLY, DIVIDE;
+        ADD(0.0, 0.0), SUBTRACT(0.0, 0.0), MULTIPLY(0.0, 0.0), DIVIDE(0.0, 0.0);
+        private final double v, v1;
+        
+        Operator(double v, double v1) {
+            this.v = v;
+            this.v1 = v1;
+        }
     }
+    
     private static void exercise5() {
         System.out.println("\nExercise 5: ");
         double num1 = 5;
         double num2 = 2;
         // Your code here
-    
-        System.out.println("Numbers of the equations: " + num1 + " - " + num2);
         
-        operations(num1, num2);
-       
-    }
-    
-    public static void operations(double num1, double num2){
         for (Operator operator : Operator.values()) {
-            if (operator == Operator.ADD) {
-                System.out.println(operator.name() + " operation: " + (num1 + num2));
-            } else if (operator == Operator.SUBTRACT) {
-                System.out.println(operator.name() + " operation: " +(num1 - num2));
-            } else if (operator == Operator.MULTIPLY){
-                System.out.println(operator.name() + " operation: " +(num1 * num2));
-            } else {
-                System.out.println(operator.name() + " operation: " +(num1 / num2));
-            }
+            operation(num1, num2, operator);
+        }
+        
+        
+    }
+    public static void operation(double num1, double num2, Operator op) {
+        switch (op) {
+            case ADD:
+                System.out.println(op.name() + ": \n" +
+                                           num1 + " + " +
+                                           num2 + " = " +
+                                           (num1 + num2));
+                break;
+            case SUBTRACT:
+                System.out.println(op.name() + ": \n" +
+                                           num1 + " - " +
+                                           num2 + " = " +
+                                           (num1 - num2));
+                break;
+            case MULTIPLY:
+                System.out.println(op.name() + ": \n" +
+                                           num1 + " * " +
+                                           num2 + " = " +
+                                           (num1 * num2));
+                break;
+            case DIVIDE:
+                System.out.println(op.name() + ": \n" +
+                                           num1 + " / " +
+                                           num2 + " = " +
+                                           (num1 / num2));
+                break;
+            default:
+                break;
         }
     }
     

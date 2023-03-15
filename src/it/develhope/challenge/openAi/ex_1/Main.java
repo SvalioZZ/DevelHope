@@ -1,4 +1,4 @@
-package it.develhope.challenge.openAi;
+package it.develhope.challenge.openAi.ex_1;
 
 /**
  * Exercise: File Manipulation
