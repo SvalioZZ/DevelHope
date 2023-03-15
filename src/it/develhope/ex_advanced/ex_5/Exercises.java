@@ -46,8 +46,8 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
-        String userInputFileName = "test-file.txt";
         try {
+            String userInputFileName = "test-file.txt";
             FileReader reader = new FileReader(userInputFileName);
         } catch (IOException e) {
             System.out.println("Exception: " + e.getMessage());
