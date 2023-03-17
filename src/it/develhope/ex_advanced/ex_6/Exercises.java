@@ -23,7 +23,13 @@ public class Exercises {
      * Loop over the values with Days.values() and print them out.
      */
     private enum Days {
-        MONDAY(false), TUESDAY(false), WEDNESDAY(false), THURSDAY(false), FRIDAY(false), SATURDAY(true), SUNDAY(true);
+        MONDAY(false),
+        TUESDAY(false),
+        WEDNESDAY(false),
+        THURSDAY(false),
+        FRIDAY(false),
+        SATURDAY(true),
+        SUNDAY(true);
         
         private final boolean isWeekend;
         
