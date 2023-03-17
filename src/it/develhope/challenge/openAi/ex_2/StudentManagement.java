@@ -17,7 +17,7 @@ public class StudentManagement {
         }
     }
     
-    public void addStudent(Student student, int id) throws NewExeption {
+    public void addStudent(Student student) throws NewExeption {
         if (studentExists()) {
             throw new NewExeption("Student already exists" + student.getId());
         }

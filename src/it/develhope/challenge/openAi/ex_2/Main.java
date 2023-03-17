@@ -22,7 +22,7 @@ public class Main {
         studentManagement.addStudent(std5);
         studentManagement.addStudent(std6);
         studentManagement.addStudent(std7);
-        
+
         printOptions();
         Scanner scanner = new Scanner(System.in);
         Scanner scannerString = new Scanner(System.in);
