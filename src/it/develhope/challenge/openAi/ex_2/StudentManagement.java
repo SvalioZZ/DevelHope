@@ -1,10 +1,7 @@
 package it.develhope.challenge.openAi.ex_2;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class StudentManagement {
     
@@ -20,12 +17,28 @@ public class StudentManagement {
         }
     }
     
-    public void addStudent(Student student) {
+    public void addStudent(Student student, int id) throws NewExeption {
+        if (studentExists()) {
+            throw new NewExeption("Student already exists" + student.getId());
+        }
         students.add(student);
     }
     
-    public boolean removeStudent(Student student) {
-        return students.remove(student);
+    private boolean studentExists() {
+        for (int i = 0; i < students.size(); i++) {
+            return students.get(i) == students.get(i);
+        }
+        return false;
+    }
+    
+    public void removeStudent(int id) {
+        Student result = new Student();
+        try {
+            result = students.remove(students.indexOf(id));
+        } catch (Exception e) {
+            System.err.println("Error: " + e.getMessage());
+        }
+        result.printInfo();
     }
     
     public Student getStudents(int id) {

@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NewExeption {
     
         StudentManagement studentManagement = new StudentManagement();
         Student std1 = new Student("John", "Doyle", 0);
@@ -32,18 +32,23 @@ public class Main {
         while (userInput != 0) {
             switch (userInput) {
                 case 1:
-                    scannerString.nextLine();
-                    System.out.println("Insert the name of the new student:");
-                    Student newStudent = new Student();
-                    newStudent.setName(scannerString.nextLine());
-                    System.out.println("Insert the surname of the new student:");
-                    newStudent.setSurname(scannerString.nextLine());
-                    System.out.println("Insert the ID of the new student:");
-                    newStudent.setId(scannerString.nextInt());
-                    studentManagement.addStudent(newStudent);
-                    System.out.println("New student has been added!\n\n");
-                    printOptions();
-                    userInput = scanner.nextInt();
+                    try {
+                        scannerString.nextLine();
+                        System.out.println("Insert the name of the new student:");
+                        Student newStudent = new Student();
+                        newStudent.setName(scannerString.nextLine());
+                        System.out.println("Insert the surname of the new student:");
+                        newStudent.setSurname(scannerString.nextLine());
+                        System.out.println("Insert the ID of the new student:");
+                        newStudent.setId(scannerString.nextInt());
+                        studentManagement.addStudent(newStudent);
+                        System.out.println("New student has been added!\n\n");
+                        printOptions();
+                        userInput = scanner.nextInt();
+                    } catch (InputMismatchException e) {
+                        System.out.println("Error: " + e.getMessage());
+                        userInput = 1;
+                    }
                     break;
                 case 2:
                     System.out.println("All students:");
@@ -53,7 +58,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Select the ID of the student you want to delete:");
-                    studentManagement.removeStudent(studentManagement.getStudents(inputInt.nextInt()));
+                    studentManagement.removeStudent(studentManagement.getStudents(inputInt.nextInt()).getId());
                     printOptions();
                     userInput = scanner.nextInt();
                     break;
