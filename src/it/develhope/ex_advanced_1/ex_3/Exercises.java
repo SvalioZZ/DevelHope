@@ -19,6 +19,8 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+        Person p1 = new Person("Pippo Franco", 80, "Via Dello Maritozzo Bucato, 78");
+        System.out.println(p1);
     }
     
     /**
@@ -32,8 +34,13 @@ public class Exercises {
      * Create 2 people and print out their hashcodes
      */
     private static void exercise2() {
-        System.out.println("\nExercise 1: ");
+        System.out.println("\nExercise 2: ");
         // Your code here
+        Person p1 = new Person("Pippo Baudo", 79, "Via Dello Maritozzo Bucato, 50");
+        Person p2 = new Person("Genoveffa Franconcini", 69, "Via Dello Maritozzo Bucato, 87");
+        System.out.println(p1.hashCode());
+        System.out.println(p2.hashCode());
+        
     }
     
     /**
@@ -45,5 +52,7 @@ public class Exercises {
      *
      * Don't necessarily expect to understand it all right away, it can get quite complicated
      *
+     *
+     *   *** DONE ***
      */
 }

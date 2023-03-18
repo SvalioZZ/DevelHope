@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="squash! first commit">
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced_1/ex_3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced_1/ex_4/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_6/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced/ex_6/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/ex_advanced_1/ex_3/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced_1/ex_3/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/ex_advanced_1/ex_3/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exercises">
+  <component name="RunManager" selected="Application.it.develhope.ex_advanced_1.ex_3.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced.ex_6.Exercises" />
       <module name="javaBasics" />
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="it.develhope.ex_advanced_1.ex_1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced_1.ex_1.Exercises" />
+    <configuration name="it.develhope.ex_advanced_1.ex_3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced_1.ex_3.Exercises" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.ex_advanced_1.ex_1.*" />
+          <option name="PATTERN" value="it.develhope.ex_advanced_1.ex_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="it.develhope.liveLessons.lesson2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.liveLessons.lesson2.Main" />
+    <configuration name="it.develhope.ex_advanced_1.ex_4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced_1.ex_4.Exercises" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.liveLessons.lesson2.*" />
+          <option name="PATTERN" value="it.develhope.ex_advanced_1.ex_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.it.develhope.ex_advanced_1.ex_3.Exercises" />
+        <item itemvalue="Application.it.develhope.ex_advanced_1.ex_4.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.it.develhope.ex_advanced_1.ex_3.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.it.develhope.ex_advanced_1.ex_1.Exercises" />
-        <item itemvalue="Application.it.develhope.liveLessons.lesson2.Main" />
       </list>
     </recent_temporary>
   </component>
