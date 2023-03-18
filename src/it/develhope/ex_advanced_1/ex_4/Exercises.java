@@ -42,22 +42,10 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
-        
-        
-        class Person {
-            private final String name;
-            private final String address;
-            private final int age;
-            
-            public Person(String name, int age, String address) {
-                this.name = name;
-                this.address = address;
-                this.age = age;
-            }
-            
+        record Person(String name, int age, String address) {
             @Override
             public String toString() {
-             return String.format("Name: %s,\nAge: %d,\nAddress: %s", name, age, address);
+                return String.format("Name: %s,\nAge: %d,\nAddress: %s", name, age, address);
             }
         }
         
