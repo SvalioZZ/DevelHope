@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="squash! first commit">
-      <change afterPath="$PROJECT_DIR$/catalog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/TypeProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/instructions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/storeSettings/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/storeSettings/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,7 @@
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.challenge.catalogue.*" />
+          <option name="PATTERN" value="it.develhope.challenge.catalogue.storeSettings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

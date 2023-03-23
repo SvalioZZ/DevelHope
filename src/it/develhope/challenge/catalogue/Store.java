@@ -1,5 +1,7 @@
 package it.develhope.challenge.catalogue;
 
+import it.develhope.challenge.catalogue.storeSettings.Article;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;

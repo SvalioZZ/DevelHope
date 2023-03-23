@@ -1,6 +1,9 @@
-package it.develhope.challenge.catalogue;
+package it.develhope.challenge.catalogue.storeSettings;
 
-class Article extends Product implements Discount {
+import it.develhope.challenge.catalogue.Discount;
+import it.develhope.challenge.catalogue.TypeProduct;
+
+public class Article extends Product implements Discount {
     private int id;
     private String description;
     private TypeProduct type;
@@ -47,7 +50,7 @@ class Article extends Product implements Discount {
     }
     
     @Override
-    void printInfo() {
+    public void printInfo() {
         System.out.println(getName() + " - " + getPrice());
     }
 }

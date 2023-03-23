@@ -1,4 +1,4 @@
-package it.develhope.challenge.catalogue;
+package it.develhope.challenge.catalogue.storeSettings;
 
 public abstract class Product {
     /**
@@ -7,8 +7,8 @@ public abstract class Product {
      * Create an abstract class called Product that represents a generic product with the
      * following fields: name, price.
      */
-    private String name;
-    private double price;
+    protected String name;
+    protected double price;
     
     public Product(String name, double price) {
         this.name = name;
