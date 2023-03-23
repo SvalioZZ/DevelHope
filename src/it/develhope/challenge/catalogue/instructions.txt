@@ -1,0 +1,52 @@
+Exercise: Catalogue of a store
+
+1. Product class
+
+Create an abstract class called Product that represents a generic product with the
+following fields: name, price.
+
+2. Discount Interface:
+
+Creates an interface called Discount that has a discount field and the following methods:
+- applyDiscount: a method that applies a discount to the product. The discount must be
+expressed as a percentage (e.g., a discount of 10% must be passed
+as 10.0).
+
+- calculateDiscountPrice(): a method that from the product price and the
+set discount, calculates the actual price.
+
+3. Enum TypeProduct:
+
+Creates an enumerator named ProductType that represents the different types of items that
+can be sold in the store. Each TypeProduct must have a name and a
+description.
+
+4. Article class:
+
+Create a class named Article that extends the Product class and implements
+the Discount interface with the following fields: id, description and typeProduct.
+
+5. Store class.
+
+Create a class called Shop that represents the catalog of the store. The class must
+provide for a name attribute and a Map to store the items.
+Implement the following methods:
+
+- addArticle: a method that adds an item to the store catalog.
+
+- removeArticle: a method that removes an item from the store catalog.
+
+- getArticle: a method that retrieves an item from the store catalog by name.
+
+- applyDiscountForType: a method that applies a discount to all products of a certain
+ProductType within the catalog.
+
+- saveCatalog: a method that saves the catalog to a file in a defined format (e.g.
+e.g. csv).
+
+- loadCatalog: a method that loads the catalog from a file.
+
+6. Main
+
+Within main, try to create some Item objects by adding or removing them from the
+catalog of the store. Try, also, saving and loading the catalog from a file.
