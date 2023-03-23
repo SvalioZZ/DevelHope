@@ -64,7 +64,8 @@ class Store {
             String description = article.getDescription();
             TypeProduct type = article.getType();
             double discount = article.getDiscount();
-            writer.write(id + ", " + name + ", " + price + ", " + description + ", " + type + ", " + discount + ", " + catalog.get(article) + "\n");
+            writer.write(id + ", " + name + ", " + price + ", " + description + ", " +
+                                 type + ", " + discount + ", " + catalog.get(article) + "\n");
         }
         writer.close();
     }
