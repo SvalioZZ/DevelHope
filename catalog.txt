@@ -1,3 +1,0 @@
-1,Laptop,850.0,A powerful laptop for work and gaming,ELECTRONICS,15.0
-2,T-Shirt,18.0,A comfortable and stylish t-shirt,CLOTHING,10.0
-3,Milk,2.0,A carton of whole milk,GROCERY,0.0

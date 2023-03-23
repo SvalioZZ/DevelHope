@@ -5,14 +5,15 @@ import it.develhope.challenge.catalogue.TypeProduct;
 
 public class Article extends Product implements Discount {
     private int id;
+    private static int idTot;
     private String description;
     private TypeProduct type;
     private double discount = 0.0;
     
-    public Article(int id, String name, double price, String description, TypeProduct type) {
+    public Article(String name, double price, TypeProduct type) {
         super(name, price);
-        this.id = id;
-        this.description = description;
+        this.id = idTot++;
+        this.description = type.getDescription();
         this.type = type;
     }
     
@@ -35,6 +36,9 @@ public class Article extends Product implements Discount {
     public void setDiscount(double discount) {
         this.discount = discount;
     }
+    public void setDescription(String description) {
+        this.description = description;
+    }
     
     public void applyDiscount(double discount) {
         setDiscount(discount);
@@ -52,5 +56,9 @@ public class Article extends Product implements Discount {
     @Override
     public void printInfo() {
         System.out.println(getName() + " - " + getPrice());
+    }
+    
+    public void setId(int id) {
+        this.id = id;
     }
 }

@@ -31,6 +31,5 @@ public abstract class Product {
         this.price = price;
     }
     
-    void printInfo() {
-    }
+    public abstract void printInfo();
 }

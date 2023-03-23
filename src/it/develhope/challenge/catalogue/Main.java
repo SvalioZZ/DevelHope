@@ -9,9 +9,9 @@ public class Main {
         
         Store store = new Store("My New Store");
         
-        Article article1 = new Article(1, "Laptop", 1000.0, "A powerful laptop for work and gaming", TypeProduct.ELECTRONICS);
-        Article article2 = new Article(2, "T-Shirt", 20.0, "A comfortable and stylish t-shirt", TypeProduct.CLOTHING);
-        Article article3 = new Article(3, "Milk", 2.0, "A carton of whole milk", TypeProduct.GROCERY);
+        Article article1 = new Article("Laptop", 1000.0, TypeProduct.ELECTRONICS);
+        Article article2 = new Article("T-Shirt", 20.0, TypeProduct.CLOTHING);
+        Article article3 = new Article("Milk", 2.0, TypeProduct.GROCERY);
         
         store.addArticle(article1);
         store.addArticle(article2);
@@ -19,10 +19,10 @@ public class Main {
         
         store.applyDiscountForType(TypeProduct.CLOTHING, 10.0);
         
-        store.saveCatalog("catalog.txt");
+        store.saveCatalog("catalog.csv");
         
         Store newStore = new Store("My New Store 2");
-        newStore.loadCatalog("catalog.txt");
+        newStore.loadCatalog("catalog.csv");
         
         newStore.getArticle("Laptop");
         newStore.getArticle("T-Shirt");
@@ -30,6 +30,6 @@ public class Main {
         
         article1.applyDiscount(15.0);
         article1.printInfo();
-        store.saveCatalog("catalog.txt");
+        store.saveCatalog("catalog.csv");
     }
 }

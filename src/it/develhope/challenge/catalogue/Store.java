@@ -2,16 +2,13 @@ package it.develhope.challenge.catalogue;
 
 import it.develhope.challenge.catalogue.storeSettings.Article;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
 class Store {
     private String name;
-    private Map<String, Article> catalog;
+    private Map<Article, Integer> catalog;
     
     public Store(String name) {
         this.name = name;
@@ -19,68 +16,74 @@ class Store {
     }
     
     public void addArticle(Article article) {
-        String name = article.getName();
-        if (catalog.containsKey(name)) {
-            System.out.println(name + " already exists in the catalog.");
+        if (!catalog.containsKey(article)) {
+            catalog.put(article, 1);
         } else {
-            catalog.put(name, article);
-            System.out.println(name + " added to the catalog.");
+            catalog.put(article, catalog.get(article) + 1);
         }
     }
     
-    public void removeArticle(String name) {
-        if (catalog.containsKey(name)) {
-            catalog.remove(name);
-            System.out.println(name + " removed from the catalog.");
+    public void removeArticle(Article article) {
+        if (!catalog.containsKey(article)) {
+            throw new IllegalArgumentException("No such article: " + article);
+        }
+        int value = catalog.get(article);
+        if (value == 1) {
+            catalog.remove(article);
         } else {
-            System.out.println(name + " not found in the catalog.");
+            catalog.put(article, value - 1);
         }
     }
     
     public Article getArticle(String name) {
-        if (catalog.containsKey(name)) {
-            Article article = catalog.get(name);
-            System.out.println(name + " found in the catalog.");
-            return article;
-        } else {
-            System.out.println(name + " not found in the catalog.");
-            return null;
+        for (Article article : catalog.keySet()) {
+            if (article.getName().equals(name)) {
+                return article;
+            }
         }
+        throw new IllegalArgumentException("No such article: " + name);
     }
+    
     public void applyDiscountForType(TypeProduct type, double discount) {
-        for (Article article : catalog.values()) {
+        for (Article article : catalog.keySet()) {
             if (article.getType().equals(type)) {
                 article.applyDiscount(discount);
                 System.out.println("Discount of " + discount + "% applied to " + article.getName() + ".");
             }
         }
     }
+    
     public void saveCatalog(String filename) throws IOException {
-        FileWriter writer = new FileWriter(filename);
-        for (Article article : catalog.values()) {
+//        FileWriter writer = new FileWriter(filename);
+        File file = new File(filename);
+        BufferedWriter writer = new BufferedWriter((new FileWriter(file)));
+        for (Article article : catalog.keySet()) {
             int id = article.getId();
             String name = article.getName();
             double price = article.getPrice();
             String description = article.getDescription();
             TypeProduct type = article.getType();
             double discount = article.getDiscount();
-            writer.write(id + "," + name + "," + price + "," + description + "," + type + "," + discount + "\n");
+            writer.write(id + ", " + name + ", " + price + ", " + description + ", " + type + ", " + discount + ", " + catalog.get(article) + "\n");
         }
         writer.close();
     }
+    
     public void loadCatalog(String filename) throws IOException {
         FileReader reader = new FileReader(filename);
         BufferedReader bufferedReader = new BufferedReader(reader);
         String line = bufferedReader.readLine();
         while (line != null) {
-            String[] fields = line.split(",");
+            String[] fields = line.split(", ");
             int id = Integer.parseInt(fields[0]);
             String name = fields[1];
             double price = Double.parseDouble(fields[2]);
             String description = fields[3];
             TypeProduct type = TypeProduct.valueOf(fields[4]);
             double discount = Double.parseDouble(fields[5]);
-            Article article = new Article(id, name, price, description, type);
+            Article article = new Article(name, price, type);
+            article.setId(id);
+            article.setDescription(description);
             article.setDiscount(discount);
             addArticle(article);
             line = bufferedReader.readLine();
