@@ -10,6 +10,7 @@ class Store {
     private String name;
     private Map<Article, Integer> catalog;
     
+    
     public Store(String name) {
         this.name = name;
         this.catalog = new HashMap<>();
@@ -32,6 +33,22 @@ class Store {
             catalog.remove(article);
         } else {
             catalog.put(article, value - 1);
+        }
+    }
+    
+    public Map<Article, Integer> getCatalog() {
+        return catalog;
+    }
+    
+    public void countItemsFromCatalog(Article article) {
+        int count = 0;
+        if (article != null) {
+            if(catalog.containsKey(article)) {
+                count = catalog.get(article);
+                System.out.println("Item Stock For " + article.getName() + ": " + count);
+            }
+        } else {
+            System.out.println("No items from catalog for " + article);
         }
     }
     
