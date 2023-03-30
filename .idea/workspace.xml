@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/ex_advanced_1/ex_6/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exercises">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced_1.ex_6.Exercises" />
       <module name="javaBasics" />
@@ -142,9 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.it.develhope.ex_advanced_1.ex_5.Exercises" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.it.develhope.ex_advanced_1.ex_4.Exercises (1)" />
         <item itemvalue="Application.it.develhope.ex_advanced_1.ex_3.Exercises" />
       </list>
@@ -232,15 +232,6 @@
           <line>10</line>
           <properties field="hitChance" class="it.develhope.liveLessons.lesson1.Skill" />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/it/develhope/ex_advanced_1/ex_6/Exercises.java</url>
-          <line>50</line>
-          <properties class="it.develhope.ex_advanced_1.ex_6.Exercises" method="reverseString">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

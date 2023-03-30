@@ -16,13 +16,17 @@ public class Main {
         store.addArticle(article1);
         store.addArticle(article2);
         store.addArticle(article3);
+        store.addArticle(article1);
+        store.addArticle(article1);
+        store.addArticle(article1);
+        store.addArticle(article1);
         
         store.applyDiscountForType(TypeProduct.CLOTHING, 10.0);
         
-        store.saveCatalog("catalog.csv");
+        store.saveCatalog("src/it/develhope/challenge/catalogue/storeSettings/catalog.csv");
         
         Store newStore = new Store("My New Store 2");
-        newStore.loadCatalog("catalog.csv");
+        newStore.loadCatalog("src/it/develhope/challenge/catalogue/storeSettings/catalog.csv");
         
         newStore.getArticle("Laptop");
         newStore.getArticle("T-Shirt");
@@ -30,6 +34,6 @@ public class Main {
         
         article1.applyDiscount(15.0);
         article1.printInfo();
-        store.saveCatalog("catalog.csv");
+        store.saveCatalog("src/it/develhope/challenge/catalogue/storeSettings/catalog.csv");
     }
 }
