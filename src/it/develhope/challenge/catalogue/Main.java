@@ -25,6 +25,7 @@ public class Main {
         store.addArticle(article3);
         store.addArticle(article3);
         store.addArticle(article3);
+        store.addArticle(article3);
         store.addArticle(article1);
         store.addArticle(article1);
         store.addArticle(article1);
