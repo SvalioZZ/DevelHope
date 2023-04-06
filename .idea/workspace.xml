@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_1/Simulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/FileAndParole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/testo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/storeSettings/catalog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/catalogue/storeSettings/catalog.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/challenge_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/FileAndParole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/FileAndParole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/testo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/resources/testo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

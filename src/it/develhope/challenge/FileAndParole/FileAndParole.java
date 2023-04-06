@@ -1,6 +1,6 @@
 package it.develhope.challenge.FileAndParole;
 
-import java.io.BufferedReader;
+import java.io.BufferedReader;;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+
 
 public class FileAndParole {
     
@@ -24,7 +25,7 @@ public class FileAndParole {
         FileReader fileReader = new FileReader(file.toFile());
         BufferedReader reader = new BufferedReader(fileReader);
         while (reader.ready()) {
-            String[] parole = reader.readLine().split(" ");
+            ArrayList<String> parole = getFrequency(file);
             for (String parola : parole) {
                 if (occorrenze.containsKey(parola)) {
                     occorrenze.put(parola, occorrenze.get(parola) + 1);
@@ -50,7 +51,7 @@ public class FileAndParole {
         BufferedReader br = new BufferedReader(fileReader);
         HashMap<String, ArrayList<String>> rime = new HashMap<>();
         while (br.ready()) {
-            String[] parole = br.readLine().toLowerCase().replaceAll("\\d+", "").split("\\W+");
+            ArrayList<String> parole = getFrequency(file);
             for (String parola : parole) {
                 if (parola.length() < 4) continue;
                 char ultimo = parola.charAt(parola.length()-1);
@@ -74,5 +75,35 @@ public class FileAndParole {
         }
         br.close();
         return rime;
+    }
+    
+    public static HashMap<Character, Integer> getLetterFrequency(Path filePath) throws IOException {
+        ArrayList<String> words = getFrequency(filePath);
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (String word : words) {
+            char [] c = word.toCharArray();
+            for (char ch : c) {
+                if(!map.containsKey(ch)){
+                    map.put(ch, 1);
+                }
+                else {
+                    map.put(ch, map.get(ch) + 1);
+                }
+            }
+        }
+        return map;
+    }
+    
+    public static ArrayList<String> getFrequency(Path filePath) throws IOException {
+        FileReader fileReader = new FileReader(filePath.toFile());
+        BufferedReader br = new BufferedReader(fileReader);
+        ArrayList<String> lines = new ArrayList<>();
+        while (br.ready()) {
+            for (String line : lines) {}
+            String[] paroleRiga = br.readLine().toLowerCase().replaceAll("\\d+", "").split("\\W+");
+            lines.addAll(Arrays.asList(paroleRiga));
+        }
+        br.close();
+        return lines;
     }
 }
