@@ -17,13 +17,11 @@ public class FileOperations {
     public static Map<String, Integer> wordFrequencies(String file) throws IOException {
         Map<String, Integer> frequencies = new TreeMap<>();
         // use a TreeMap to automatically sort the keys in alphabetical order
-        
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] words = line.split("\\W+");
                 // split the line into words using a regular expression that matches non-word characters
-                
                 for (String word : words) {
                     if (!word.isEmpty()) {
                         frequencies.put(word.toLowerCase(), frequencies.getOrDefault(word.toLowerCase(), 0) + 1);
@@ -32,7 +30,6 @@ public class FileOperations {
                 }
             }
         }
-        
         return frequencies;
     }
     
@@ -43,13 +40,12 @@ public class FileOperations {
      * @throws IOException if an I/O error occurs
      */
     public static void writeFrequencies(Map<String, Integer> frequencies, String file) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
             for (Map.Entry<String, Integer> entry : frequencies.entrySet()) {
                 writer.write("Word: " + entry.getKey().toUpperCase() + " - Counted: " + entry.getValue());
                 writer.newLine();
                 // write each word frequency pair to a new line in the file
             }
+            writer.close();
         }
-    }
-    
 }
