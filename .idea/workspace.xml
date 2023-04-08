@@ -90,7 +90,7 @@
       <recent name="it.checkpoint.ck_type_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.it.develhope.challenge.FileAndParole.Main">
+  <component name="RunManager" selected="Application.it.checkpoint.ck_type_2.Main">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced_1.ex_6.Exercises" />
       <module name="javaBasics" />
@@ -158,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.it.develhope.challenge.FileAndParole.Main" />
         <item itemvalue="Application.it.checkpoint.ck_type_2.Main" />
+        <item itemvalue="Application.it.develhope.challenge.FileAndParole.Main" />
         <item itemvalue="Application.it.checkpoint.ck_type_1.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Exercises" />

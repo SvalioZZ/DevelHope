@@ -42,9 +42,13 @@ public class FileOperations {
     public static void writeFrequencies(Map<String, Integer> frequencies, String file) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(file));
             for (Map.Entry<String, Integer> entry : frequencies.entrySet()) {
-                writer.write("Word: " + entry.getKey().toUpperCase() + " - Counted: " + entry.getValue());
-                writer.newLine();
-                // write each word frequency pair to a new line in the file
+                if (entry.getValue() > 1) {
+                    writer.write("Word: " + entry.getKey().toUpperCase() + " - Counted: " + entry.getValue() + " times\n");
+                } else {
+                    writer.write("Word: " + entry.getKey().toUpperCase() + " - Counted: " + entry.getValue() + " time\n");
+                }
+                    writer.newLine();
+                    // write each word frequency pair to a new line in the file
             }
             writer.close();
         }
