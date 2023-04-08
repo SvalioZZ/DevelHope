@@ -1,14 +1,17 @@
 package it.develhope.challenge.FileAndParole;
 
 import java.io.IOException;
-import java.nio.file.Path;
+import java.util.HashMap;
+import java.util.List;
 
 public class Main {
     
     public static void main(String[] args) throws IOException {
-        Path path = Path.of("src/it/develhope/challenge/FileAndParole/resources/testo.txt");
-        System.out.println(FileAndParole.contaParole(path));
-        System.out.println(FileAndParole.paroleInRima(path));
+        List<String> lines = FileAndParole.loadLines("src/it/develhope/challenge/FileAndParole/resources/text.txt");
+        System.out.println(lines);
+        HashMap<Integer, String> lineMap = FileAndParole.processLines(lines);
+        System.out.println(lineMap);
+        FileAndParole.writeLines("src/it/develhope/challenge/FileAndParole/resources/MappedValues.txt", lineMap);
     }
     
 }
