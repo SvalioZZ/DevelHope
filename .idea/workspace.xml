@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/resources/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_3/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_3/resources/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_3/resources/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_3/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/FileAndParole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/FileAndParole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/resources/testo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/FileAndParole/resources/MappedValues.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,20 +89,7 @@
       <recent name="it.checkpoint.ck_type_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.it.checkpoint.ck_type_2.Main">
-    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.ex_advanced_1.ex_6.Exercises" />
-      <module name="javaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.ex_advanced_1.ex_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.it.checkpoint.ck_type_3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.challenge.catalogue.Main" />
       <module name="javaBasics" />
@@ -143,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="it.checkpoint.ck_type_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.checkpoint.ck_type_3.Main" />
+      <module name="javaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.checkpoint.ck_type_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="it.develhope.challenge.FileAndParole.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.challenge.FileAndParole.Main" />
       <module name="javaBasics" />
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.it.checkpoint.ck_type_3.Main" />
         <item itemvalue="Application.it.checkpoint.ck_type_2.Main" />
         <item itemvalue="Application.it.develhope.challenge.FileAndParole.Main" />
         <item itemvalue="Application.it.checkpoint.ck_type_1.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
   </component>

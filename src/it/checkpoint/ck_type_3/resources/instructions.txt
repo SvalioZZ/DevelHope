@@ -1,0 +1,32 @@
+Write a program in Java that reads a text file "file.txt"
+containing a series of strings divided by spaces only,
+with no punctuation whatsoever.
+The file also contains blank lines with a separator function.
+
+The program should perform the following operations:
+
+1_ Load the lines in the file into a list of strings and print the list on the screen.
+2_ Calculate the total number of words in the file, excluding the blank lines, and print it on the screen.
+3_ Delete any repeated words in the file and print the list of unique words on the screen.
+4_ Sort the list of unique words alphabetically and print it on the screen.
+5_ Write to a new text file "file_modified.txt" the list of unique words sorted alphabetically, one by line.
+
+Note: You can use the classes BufferedReader, FileReader, BufferedWriter, and FileWriter
+to perform file read and write operations.
+
+Scrivere un programma in Java che legga un file di testo "file.txt"
+contenente una serie di stringhe divise da soli spazi,
+senza punteggiatura alcuna.
+Il file contiene anche righe vuote con funzione separatoria.
+
+Il programma dovrà eseguire le seguenti operazioni:
+
+1_ Caricare le righe del file in una lista di stringhe e stampare la lista a video.
+2_ Calcolare il numero totale di parole presenti nel file, escludendo le righe vuote, e stamparlo a video.
+3_ Eliminare le eventuali parole ripetute presenti nel file e stampare la lista delle parole univoche a video.
+4_ Ordinare alfabeticamente la lista delle parole univoche e stamparla a video.
+5_ Scrivere su un nuovo file di testo "file_modificato.txt" la lista delle parole univoche ordinate alfabeticamente, una per riga.
+
+Nota: è possibile utilizzare le classi BufferedReader, FileReader, BufferedWriter e FileWriter
+per effettuare le operazioni di lettura e scrittura dei file.
+
