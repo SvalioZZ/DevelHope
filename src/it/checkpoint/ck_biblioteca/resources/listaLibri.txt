@@ -1,3 +1,6 @@
 Genere: ROMANZO, Id: 2, Prezzo: 11.99, copies: 2
+Genere: FANTASY, Id: 4, Prezzo: 18.99, copies: 43
+Genere: FANTASY, Id: 6, Prezzo: 11.99, copies: 32
+Genere: FANTASY, Id: 5, Prezzo: 16.99, copies: 40
 Genere: ROMANZO, Id: 1, Prezzo: 13.99, copies: 5
 Genere: FANTASY, Id: 3, Prezzo: 21.99, copies: 4

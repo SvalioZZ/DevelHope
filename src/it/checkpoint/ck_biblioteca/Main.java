@@ -13,11 +13,17 @@ public class Main {
         Libro libro = new Libro(1, Genere.ROMANZO, 13.99);
         Libro libroBello = new Libro(2, Genere.ROMANZO, 11.99);
         Libro libroBrutto = new Libro(3, Genere.FANTASY, 21.99);
+        Libro libroStrano = new Libro(4, Genere.FANTASY, 18.99);
+        Libro libroOttuso = new Libro(5, Genere.FANTASY, 16.99);
+        Libro libroGattuso = new Libro(6, Genere.FANTASY, 11.99);
     
         HashMap<Libro, Integer> mappaDiLibri = new HashMap<Libro, Integer>();
         mappaDiLibri.put(libro, 5);
         mappaDiLibri.put(libroBello, 2);
         mappaDiLibri.put(libroBrutto, 4);
+        mappaDiLibri.put(libroStrano, 43);
+        mappaDiLibri.put(libroOttuso, 40);
+        mappaDiLibri.put(libroGattuso, 32);
         
         Biblioteca biblioteca = new Biblioteca(mappaDiLibri);
         biblioteca.salvaSuFile("src/it/checkpoint/ck_biblioteca/resources/listaLibri.txt");
@@ -31,7 +37,7 @@ public class Main {
         
         newBiblioteca.stampaLibri();
         
-        List<Libro> libriFiltrati = newBiblioteca.filtraLibri(Genere.ROMANZO);
+        List<Libro> libriFiltrati = newBiblioteca.filtraLibri(Genere.FANTASY);
         
         libriFiltrati.forEach(System.out::println);
         
