@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_4/OperationsFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_4/resources/Instructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_4/resources/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_4/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Genere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/resources/istruzioni.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/resources/listaLibri.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/checkpoint/ck_type_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_type_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/challenge/openAi/ex_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/challenge/openAi/ex_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -89,13 +92,13 @@
       <recent name="it.checkpoint.ck_type_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.it.checkpoint.ck_type_4.Main">
-    <configuration name="it.checkpoint.ck_type_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.checkpoint.ck_type_1.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.checkpoint.ck_biblioteca.Main" />
       <module name="javaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.checkpoint.ck_type_1.*" />
+          <option name="PATTERN" value="it.checkpoint.ck_biblioteca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.it.checkpoint.ck_type_4.Main" />
         <item itemvalue="Application.it.checkpoint.ck_type_3.Main" />
         <item itemvalue="Application.it.checkpoint.ck_type_2.Main" />
         <item itemvalue="Application.it.develhope.challenge.FileAndParole.Main" />
-        <item itemvalue="Application.it.checkpoint.ck_type_1.Main" />
       </list>
     </recent_temporary>
   </component>

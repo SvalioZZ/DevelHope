@@ -1,0 +1,32 @@
+CHECKPOINT 11/04/2023
+1) Definire una classe "Libro" che abbia i seguenti attributi privati:
+- ID
+- Genere ("Storico”, “Fantasy”, “Per Ragazzi”, “Romanzo”)
+- Prezzo
+● Implementare il costruttore completo
+● Implementare i relativi metodi di getter e setter
+● Implementare il metodo toString() per mostrare in output le info relative
+all’istanza della classe.
+2) Progettare una classe Biblioteca con i seguenti attributi:
+- Mappa di libri // Libro, int → Libro, Quantità di libri presenti nella
+biblioteca
+● Implementare un costruttore con l’unico attributo presente nella classe ed il
+costruttore di default.
+● Implementare getter e setter.
+● Realizzare un metodo salvaSuFile(String path) per salvare su file l'insieme di
+libri presenti nella biblioteca con le relative disponibilità.
+● Realizzare un metodo caricaDaFile(String path) che carichi da file i libri e li
+sostituisca alla mappa di prodotti presenti.
+● Realizzare un metodo che stampi tutti i libri presenti nella biblioteca con la
+relativa quantità.
+3) Creare una classe Main nella quale:
+● Istanziare 3 oggetti di tipo Libro.
+● Istanziare un oggetto Biblioteca e aggiungere i libri creati con relative
+disponibilità a piacere.
+● Salvare i libri presenti nel magazzino sul file “listaLibri.txt”.
+● Stampare i libri nella biblioteca.
+● Istanziare un oggetto newBiblioteca usando il costruttore di default
+● Caricare i prodotti dal file “listaLibri.txt”
+● Stampare i libri di newBiblioteca verificando che siano gli stessi di Biblioteca
+● Utilizzando gli stream, filtrare i libri in base al genere e ordinarli in base alla
+disponibilità.

@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         
         Path path = Path.of("src/it/checkpoint/ck_type_3/resources/test.txt");
-        Path outputPath = Path.of("src/it/checkpoint/ck_type_3/resources/output.txt");
+        Path outputPath = Path.of("src/it/checkpoint/ck_type_3/resources/listaLibri.txt");
         
         List<String> lines = Operations.loadLines(path);
         System.out.println(lines);
