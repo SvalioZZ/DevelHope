@@ -1,0 +1,16 @@
+Scrivere un programma in Java che legge da un file di testo una serie di paragrafi. Il testo è senza punteggiatura e con linee separatorie di indentazione.
+
+Il programma deve eseguire le seguenti operazioni:
+
+1_ Contare il numero totale di caratteri presenti in tutti i paragrafi.
+2_ Contare il numero di parole presenti in tutti i paragrafi.
+3_ Trovare la parola più frequente in tutti i paragrafi.
+4_ Trovare la riga più lunga in tutti i paragrafi.
+5_ Calcolare la media della lunghezza delle righe in ogni paragrafo.
+6_ Contare il numero di paragrafi presenti nel file.
+
+
+Il programma deve essere implementato in modo dinamico,
+in modo che funzioni con qualsiasi file di testo formattato come descritto sopra.
+Inoltre, il programma deve visualizzare i risultati ottenuti
+per ogni operazione sopra descritta.
