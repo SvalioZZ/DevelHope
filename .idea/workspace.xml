@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fcc5f5-3ed8-4046-96cb-d14edbc7bfe8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/resources/listaLibri.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/checkpoint/ck_biblioteca/resources/listaLibri.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

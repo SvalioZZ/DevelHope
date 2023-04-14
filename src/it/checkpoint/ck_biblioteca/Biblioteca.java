@@ -30,7 +30,7 @@ public class Biblioteca {
     public void salvaSuFile (String filePath) throws IOException {
         BufferedWriter br = new BufferedWriter(new FileWriter(filePath));
         for (Map.Entry<Libro, Integer> entry : mappaDiLibri.entrySet()) {
-            br.write(entry.getKey().toString() + ", copies: " + entry.getValue());
+            br.write(entry.getKey().toString() + ", copies: " + entry.getValue() + ", description: " + entry.getKey().getGenere().getDescription());
             br.newLine();
         }
         br.close();
@@ -45,7 +45,7 @@ public class Biblioteca {
             Genere genere = Genere.valueOf(tokens[0].split(": ")[1]);
             int id = Integer.parseInt(tokens[1].split(": ")[1]);
             double prezzo = Double.parseDouble(tokens[2].split(": ")[1]);
-            int quantita = Integer.parseInt(tokens[3].split(": ")[1]);
+            int quantita = Integer.parseInt(tokens[3].split(": ")[1].split(": ")[0]);
             Libro libro = new Libro(id, genere, prezzo);
             mappaLibri.put(libro, quantita);
         }
@@ -55,7 +55,7 @@ public class Biblioteca {
     
     public void stampaLibri() {
         for (Map.Entry<Libro, Integer> entry : mappaDiLibri.entrySet()){
-            System.out.println(entry.getKey().toString() + " - quantità disponibile: " + entry.getValue());
+            System.out.println(entry.getKey().toString() + " - " + entry.getKey().getGenere().getDescription() + " - quantità disponibile: " + entry.getValue());
         }
     }
     

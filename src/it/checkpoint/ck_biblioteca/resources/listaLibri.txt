@@ -1,6 +1,11 @@
-Genere: ROMANZO, Id: 2, Prezzo: 11.99, copies: 2
-Genere: FANTASY, Id: 4, Prezzo: 18.99, copies: 43
-Genere: FANTASY, Id: 6, Prezzo: 11.99, copies: 32
-Genere: FANTASY, Id: 5, Prezzo: 16.99, copies: 40
-Genere: ROMANZO, Id: 1, Prezzo: 13.99, copies: 5
-Genere: FANTASY, Id: 3, Prezzo: 21.99, copies: 4
+Genere: PER_RAGAZZI, Id: 2, Prezzo: 13.99, copies: 31, description: Un genere leggero, indicato per tutte le età
+Genere: FANTASY, Id: 10, Prezzo: 18.99, copies: 43, description: IN CERCA DI AVVENTURA?! SEI NEL POSTO GIUSTO!
+Genere: STORICO, Id: 4, Prezzo: 13.99, copies: 14, description: Per chi ama la Storia e vuole conoscerne i segreti ..!
+Genere: ROMANZO, Id: 6, Prezzo: 13.99, copies: 23, description: Un genere molto diffuso, per gli appassionati di storie di tutti i tipi!
+Genere: ROMANZO, Id: 7, Prezzo: 13.99, copies: 16, description: Un genere molto diffuso, per gli appassionati di storie di tutti i tipi!
+Genere: FANTASY, Id: 12, Prezzo: 11.99, copies: 32, description: IN CERCA DI AVVENTURA?! SEI NEL POSTO GIUSTO!
+Genere: STORICO, Id: 5, Prezzo: 13.99, copies: 3, description: Per chi ama la Storia e vuole conoscerne i segreti ..!
+Genere: FANTASY, Id: 11, Prezzo: 16.99, copies: 40, description: IN CERCA DI AVVENTURA?! SEI NEL POSTO GIUSTO!
+Genere: PER_RAGAZZI, Id: 1, Prezzo: 13.99, copies: 5, description: Un genere leggero, indicato per tutte le età
+Genere: STORICO, Id: 3, Prezzo: 13.99, copies: 9, description: Per chi ama la Storia e vuole conoscerne i segreti ..!
+Genere: FANTASY, Id: 9, Prezzo: 21.99, copies: 4, description: IN CERCA DI AVVENTURA?! SEI NEL POSTO GIUSTO!
